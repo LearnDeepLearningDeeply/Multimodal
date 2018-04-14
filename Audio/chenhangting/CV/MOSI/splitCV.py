@@ -41,9 +41,9 @@ groups=[];samples=[];labels=[]
 for row in filedict:
     samples.append(row[0])
     labels.append(row[1])
-    speaker=row[0].split('_')[0]
+    speaker=row[0].rsplit('_',maxsplit=1)[0]
     groups.append(findRepeat(speaker,speakerRepeat))
-#print(groups)
+for g in groups:print(g)
 
 gkf=GroupKFold(n_splits=nsplits)
 for fold,(train,test) in enumerate(gkf.split(samples,labels,groups=groups)):
