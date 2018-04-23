@@ -4,7 +4,7 @@
 
 1. 交叉测试根据说话人划分为5组，
 2. folds里面包含5组文件。fold{i}\_train 是 第{i}组交叉测试的训练集，fold{i}\_test 是 第{i}组交叉测试的测试集。 整个系统根据fold{i}\_train 训练，根据fold{i}\_test 测试。
-3. 实验数据仅包含4类情感，`positive negative`
+3. 实验数据仅包含2类情感，`positive negative`
 4. 本交叉验证集的设定参考 Cambria, E., et al. (2017). "Benchmarking Multimodal Sentiment Analysis."
 
 | samples num in train/test | positive | negtive |
