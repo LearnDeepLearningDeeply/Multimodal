@@ -9,7 +9,7 @@
 
 | samples num in train/test | positive | negtive |
 | - | :-: | -: | 
-| fold1 |  843/239 | 843/180 |
+| fold1 |  843/239 | 843/180 | 
 | fold2 |  880/202 | 798/225 |
 | fold3 |  889/193 | 798/225 |
 | fold4 |  879/203 | 808/215 |
@@ -17,4 +17,16 @@
 
 ## cats.txt
 
-产生folds中的文件，不用关心
+所有样本的标签
+
+# speaker.txt
+
+同一说话人标记
+
+# MTurkAve.py
+
+统计5人打分，给出正负标签。生成cats.txt
+
+# splitCV.py
+
+用sklearn生成5折交叉测试文件
