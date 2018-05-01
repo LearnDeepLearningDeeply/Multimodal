@@ -4,8 +4,7 @@
 @author: chenhangting
 
 @notes: a lstm baseline for MOSI
-    add weight to balance classes
-
+    # TODO not finish add cnn
 """
 
 import argparse
@@ -151,7 +150,7 @@ class LSTMNet(nn.Module):
 
 class CNNNet(nn.Module):
     def __init__(self,input_dim,input_channel,dimAferCov,dropout=0.5):
-        super(CNNNet,self).__init()
+        super(CNNNet,self).__init__()
         self.input_dim=input_dim
         self.input_channel=input_channel
         self.dimAfterCov=dimAferCov
@@ -160,7 +159,7 @@ class CNNNet(nn.Module):
             nn.Conv1d(self.inchannels,8,kernel_size=3,stride=1,padding=1),
             nn.BatchNorm1d(8),
             nn.ReLU(),
-            nn.MaxPool1d(kernel_szie=2,padding=1),
+            nn.MaxPool1d(kernel_size=2,padding=1),
         )
 
         self.cov2=nn.Sequential(
@@ -170,14 +169,6 @@ class CNNNet(nn.Module):
             nn.MaxPool1d(kernel_size=2,padding=1),
             nn.Dropout(p=dropout),
         )
-'''
-        self.cov3=nn.Sequential(
-            nn.Conv1d(16,32,kernel_size=3,stride=1,padding=1),
-            nn.BatchNorm1d(32),
-            nn.ReLU(),
-            nn.MaxPool1d(kernel_size=2,padding=1),
-        )
-   ''' 
 
     def forward(self,x):
         batch_size=x.size(0)
