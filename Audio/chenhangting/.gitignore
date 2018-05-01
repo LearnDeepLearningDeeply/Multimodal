@@ -2,6 +2,7 @@
 temp/
 /features/
 log
+*.pkl
 
 # Python
 __pycache__/
