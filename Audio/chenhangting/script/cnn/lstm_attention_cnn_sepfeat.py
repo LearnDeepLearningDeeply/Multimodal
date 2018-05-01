@@ -5,7 +5,8 @@
 
 @notes: a attention-lstm  for MOSI
     support early stopping
-    add cnn
+    add cnn for fbank
+    concatenate other features
 """
 
 import argparse
@@ -19,7 +20,7 @@ from torch.nn.utils.rnn import pack_padded_sequence,pad_packed_sequence
 import numpy as np
 import sys
 sys.path.append(r'../dataset')
-from dataset1d_early_stopping_single_label_fbank import AudioFeatureDataset
+from dataset1d_early_stopping_single_label_fbank_others import AudioFeatureDataset
 import pdb
 import os
 from sklearn import metrics
@@ -51,7 +52,8 @@ os.environ["CUDA_VISIBLE_ORDER"]="PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"]=str(args.device_id)
 
 emotion_labels=('positive','negative',)
-superParams={'input_dim':40,
+superParams={'input_dim1':40,
+            'input_dim2':33,
             'input_channels':3,
             'dimAfterCov':160,
             'hidden_dim':256,
@@ -100,24 +102,25 @@ test_loader=torch.utils.data.DataLoader(dataset_test, \
                                 batch_size=args.batch_size,shuffle=False, \
                                 num_workers=4,pin_memory=False)
 
-def sort_batch(data,label,length,name):
-    batch_size=data.size(0)
+def sort_batch(data1,data2,label,length,name):
+    batch_size=data1.size(0)
 #    print(np.argsort(length.numpy())[::-1].copy())
     inx=torch.from_numpy(np.argsort(length.numpy())[::-1].copy())
-    data=data[inx]
+    data1=data1[inx];data2=data2[inx]
     label=label[inx]
     length=length[inx]
     name_new=[]
     for i in list(inx.numpy()):name_new.append(name[i])
     name=name_new
     length=list(length.numpy())
-    return (data,label,length,name)
+    return (data1,data2,label,length,name)
 
 class Net(nn.Module):
-    def __init__(self,input_dim,input_channels,dimAfterCov,hidden_dim,output_dim,num_layers,biFlag,dropout=0.5):
+    def __init__(self,input_dim1,input_dim2,input_channels,dimAfterCov,hidden_dim,output_dim,num_layers,biFlag,dropout=0.5):
         #dropout
         super(Net,self).__init__()
-        self.input_dim=input_dim
+        self.input_dim1=input_dim1
+        self.input_dim2=input_dim2
         self.hidden_dim=hidden_dim
         self.output_dim=output_dim
         self.num_layers=num_layers
@@ -142,7 +145,7 @@ class Net(nn.Module):
             nn.Dropout(p=dropout),
         )
 
-        self.layer1=nn.LSTM(input_size=self.dimAfterCov,hidden_size=hidden_dim,  \
+        self.layer1=nn.LSTM(input_size=self.dimAfterCov+self.input_dim2,hidden_size=hidden_dim,  \
                         num_layers=num_layers,batch_first=True, \
                         dropout=dropout,bidirectional=biFlag)
         # out = (len batch outdim)
@@ -163,18 +166,19 @@ class Net(nn.Module):
     def init_final_out(self,batch_size):
         return Variable(torch.zeros(batch_size,self.hidden_dim*self.bi_num)).cuda()
 
-    def forward(self,x,length):
-        batch_size=x.size(0)
+    def forward(self,x1,x2,length):
+        batch_size=x1.size(0)
         maxlength=int(np.max(length))
         hidden=self.init_hidden(batch_size)
         weight=self.init_attention_weight(batch_size,maxlength)
         out_final=self.init_final_out(batch_size)
 
-        x=x.view(-1,self.input_channels,self.input_dim)
-        out=self.cov1(x)
+        x1=x1.view(-1,self.input_channels,self.input_dim1)
+        out=self.cov1(x1)
         out=self.cov2(out)
         out=out.view(batch_size,maxlength,self.dimAfterCov)
 
+        out=torch.cat((out,x2),dim=2)
         out=pack_padded_sequence(out,length,batch_first=True)
         out,hidden=self.layer1(out,hidden)
         out,length=pad_packed_sequence(out,batch_first=True)
@@ -191,17 +195,18 @@ optimizer=optim.Adam(model.parameters(),lr=args.lr,weight_decay=0.00001)
 
 def train(epoch,trainLoader):
     model.train()
-    for batch_inx,(data,target,length,name) in enumerate(trainLoader):
-        batch_size=data.size(0)
+    for batch_inx,(data_fbank,data_others,target,length,name) in enumerate(trainLoader):
+        batch_size=data_fbank.size(0)
         max_length=torch.max(length)
-        data=data[:,0:max_length,:]
+        data_fbank=data_fbank[:,0:max_length,:,:]
+        data_others=data_others[:,0:max_length,:]
 
-        (data,target,length,name)=sort_batch(data,target,length,name)
-        data,target=data.cuda(),target.cuda()
-        data,target=Variable(data),Variable(target)
+        (data_fbank,data_others,target,length,name)=sort_batch(data_fbank,data_others,target,length,name)
+        data_fbank,data_others,target=data_fbank.cuda(),data_others.cuda(),target.cuda()
+        data_fbank,data_others,target=Variable(data_fbank),Variable(data_others),Variable(target)
 
         optimizer.zero_grad()
-        output,_=model(data,length)
+        output,_=model(data_fbank,data_others,length)
         loss=F.nll_loss(output,target)
         loss.backward()
         optimizer.step()
@@ -216,16 +221,17 @@ def test(testLoader):
     test_loss=0;numframes=0
     test_dict1={};test_dict2={}
 
-    for data,target,length,name in testLoader:
-        batch_size=data.size(0)
+    for data_fbank,data_others,target,length,name in testLoader:
+        batch_size=data_fbank.size(0)
         max_length=torch.max(length)
-        data=data[:,0:max_length,:]
+        data_fbank=data_fbank[:,0:max_length,:,:]
+        data_others=data_others[:,0:max_length,:]
 
-        (data,target,length,name)=sort_batch(data,target,length,name)
-        data,target=data.cuda(),target.cuda()
-        data,target=Variable(data,volatile=True),Variable(target,volatile=True)
+        (data_fbank,data_others,target,length,name)=sort_batch(data_fbank,data_others,target,length,name)
+        data_fbank,data_others,target=data_fbank.cuda(),data_others.cuda(),target.cuda()
+        data_fbank,data_others,target=Variable(data_fbank,volatile=True),Variable(data_others,volatile=True),Variable(target,volatile=True)
 
-        output,_=model(data,length)
+        output,_=model(data_fbank,data_others,length)
         test_loss+=F.nll_loss(output,target,size_average=False).data[0]
         for i in range(batch_size):
             result=torch.squeeze(output[i,:]).cpu().data.numpy()
