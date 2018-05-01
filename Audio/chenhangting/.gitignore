@@ -5,3 +5,6 @@ log
 
 # Python
 __pycache__/
+
+# easy to change
+parallel.sh

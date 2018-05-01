@@ -1,12 +1,12 @@
 #!/bin/bash
 
-PATHPY=./baselinednn_weight_early_stopping.py
-PATHLOGDIR=../../log/baselinednn
+PATHPY=./baselinelstm_early_stopping.py
+PATHLOGDIR=../../log/baselinelstm
 PATHMODELDIR=../../temp
 startcard=0
 startfold=1
 foldnum=5
-batch_size=256
+batch_size=16
 
 mkdir -p $PATHLOGDIR
 mkdir -p $PATHMODELDIR
