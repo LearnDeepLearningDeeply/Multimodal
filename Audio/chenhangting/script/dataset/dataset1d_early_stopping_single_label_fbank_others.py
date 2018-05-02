@@ -4,7 +4,7 @@
 @author: chenhangting
 
 @notes: basic dataset module to load audio feature map
-
+        load fbank and other features seperately
 """
 
 import os
@@ -99,19 +99,21 @@ class AudioFeatureDataset(Dataset):
         mean=np.tile(self.__mean,(data.shape[0],1))
         std=np.tile(self.__std,(data.shape[0],1))
         data=(data-mean)/std
-        label=[self.__filedict[filename],]*data.shape[0]
+        label=self.__filedict[filename]
 
         length=data.shape[0]
         data=np.pad(data,((0,self.maxframes-length),(0,0)),'constant')
-        label=np.pad(label,(0,self.maxframes-length),'constant',constant_values=(-1,-1))
 
-        #slice for fbank only
-        data=np.concatenate((data[:,0:40],data[:,51:91],data[102:142]),axis=1)
-        data=np.reshape(data,(-1,3,40))
+        #slice for fbank
+        data_fbank=np.concatenate((data[:,0:40],data[:,51:91],data[:,102:142]),axis=1)
+        data_fbank=np.reshape(data_fbank,(-1,3,40))
 
-        data=torch.FloatTensor(data)
-        label=torch.LongTensor(label)
-        return (data,label,length,os.path.basename(filename))
+        data_others=np.concatenate((data[:,40:51],data[:,91:102],data[:,142:153]),axis=1)
+#        data_others=np.reshape(data_others,(-1,33))
+
+        data_fbank=torch.FloatTensor(data_fbank)
+        data_others=torch.FloatTensor(data_others)
+        return (data_fbank,data_others,label,length,os.path.basename(filename))
 	
     @property
     def ingredientCount(self):

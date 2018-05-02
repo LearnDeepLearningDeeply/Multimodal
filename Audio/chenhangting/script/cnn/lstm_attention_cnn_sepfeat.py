@@ -31,7 +31,7 @@ from sklearn import metrics
 parser=argparse.ArgumentParser(description='PyTorch for audio sentiment classification in MOSI')
 parser.add_argument('--cvnum',type=int,default=1,metavar='N', \
                     help='the num of cv set')
-parser.add_argument('--batch_size',type=int,default=16,metavar='N', \
+parser.add_argument('--batch_size',type=int,default=12,metavar='N', \
                     help='input batch size for training ( default 16 )')
 parser.add_argument('--epoch',type=int,default=150,metavar='N', \
                     help='number of epochs to train ( default 100)')
@@ -55,7 +55,7 @@ emotion_labels=('positive','negative',)
 superParams={'input_dim1':40,
             'input_dim2':33,
             'input_channels':3,
-            'dimAfterCov':160,
+            'dimAfterCov':120,
             'hidden_dim':256,
             'output_dim':len(emotion_labels),
             'num_layers':4,
@@ -131,10 +131,11 @@ class Net(nn.Module):
         self.biFlag=biFlag
 
         self.cov1=nn.Sequential(
-            nn.Conv1d(self.input_channels,8,kernel_size=3,stride=1,padding=1),
-            nn.BatchNorm1d(8),
+            nn.Conv1d(self.input_channels,6,kernel_size=3,stride=1,padding=1),
+            nn.BatchNorm1d(6),
             nn.ReLU(),
             nn.MaxPool1d(kernel_size=2),
+            nn.Dropout(p=dropout),
         )
 
         self.cov2=nn.Sequential(
@@ -175,15 +176,16 @@ class Net(nn.Module):
 
         x1=x1.view(-1,self.input_channels,self.input_dim1)
         out=self.cov1(x1)
-        out=self.cov2(out)
+#        out=self.cov2(out)
         out=out.view(batch_size,maxlength,self.dimAfterCov)
 
         out=torch.cat((out,x2),dim=2)
         out=pack_padded_sequence(out,length,batch_first=True)
         out,hidden=self.layer1(out,hidden)
         out,length=pad_packed_sequence(out,batch_first=True)
-        potential=torch.squeeze(self.simple_attention(out))
-        for inx,l in enumerate(length):weight[inx,0:l]=F.softmax(torch.squeeze(potential[inx,0:l]),dim=0)
+        potential=self.simple_attention(out)
+#        print(potential);print(weight)
+        for inx,l in enumerate(length):weight[inx,0:l]=F.softmax(potential[inx,0:l],dim=0)
         for inx,l in enumerate(length):out_final[inx,:]=torch.matmul(weight[inx,:],torch.squeeze(out[inx,:,:]))
         
         out_final=self.layer2(out_final)
