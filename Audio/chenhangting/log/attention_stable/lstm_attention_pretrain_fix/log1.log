@@ -1,0 +1,1110 @@
+                                                                               N/A% (0 of 1516) |                       | Elapsed Time: 0:00:00 ETA:  --:--:--                                                                                 3% (58 of 1516) |                      | Elapsed Time: 0:00:00 ETA:  00:00:00                                                                                 7% (116 of 1516) |#                    | Elapsed Time: 0:00:00 ETA:   0:00:01                                                                                12% (192 of 1516) |##                   | Elapsed Time: 0:00:00 ETA:   0:00:01                                                                                16% (250 of 1516) |###                  | Elapsed Time: 0:00:00 ETA:   0:00:01                                                                                20% (308 of 1516) |####                 | Elapsed Time: 0:00:00 ETA:   0:00:01                                                                                24% (365 of 1516) |#####                | Elapsed Time: 0:00:00 ETA:   0:00:01                                                                                27% (423 of 1516) |#####                | Elapsed Time: 0:00:00 ETA:   0:00:01                                                                                32% (499 of 1516) |######               | Elapsed Time: 0:00:00 ETA:   0:00:00                                                                                37% (576 of 1516) |#######              | Elapsed Time: 0:00:00 ETA:   0:00:00                                                                                43% (653 of 1516) |#########            | Elapsed Time: 0:00:00 ETA:   0:00:00                                                                                46% (711 of 1516) |#########            | Elapsed Time: 0:00:00 ETA:   0:00:00                                                                                50% (768 of 1516) |##########           | Elapsed Time: 0:00:00 ETA:   0:00:00                                                                                54% (826 of 1516) |###########          | Elapsed Time: 0:00:00 ETA:   0:00:00                                                                                59% (902 of 1516) |############         | Elapsed Time: 0:00:00 ETA:   0:00:00                                                                                63% (960 of 1516) |#############        | Elapsed Time: 0:00:00 ETA:   0:00:00                                                                                67% (1018 of 1516) |#############       | Elapsed Time: 0:00:00 ETA:   0:00:00                                                                                70% (1075 of 1516) |##############      | Elapsed Time: 0:00:00 ETA:   0:00:00                                                                                75% (1152 of 1516) |###############     | Elapsed Time: 0:00:01 ETA:   0:00:00                                                                                79% (1209 of 1516) |###############     | Elapsed Time: 0:00:01 ETA:   0:00:00                                                                                83% (1267 of 1516) |################    | Elapsed Time: 0:00:01 ETA:   0:00:00                                                                                87% (1325 of 1516) |#################   | Elapsed Time: 0:00:01 ETA:   0:00:00                                                                                92% (1401 of 1516) |##################  | Elapsed Time: 0:00:01 ETA:   0:00:00                                                                                96% (1459 of 1516) |################### | Elapsed Time: 0:00:01 ETA:   0:00:00                                                                               100% (1516 of 1516) |####################| Elapsed Time: 0:00:01 Time:  0:00:01
+                                                                               N/A% (0 of 169) |                        | Elapsed Time: 0:00:00 ETA:  --:--:--                                                                                33% (56 of 169) |#######                | Elapsed Time: 0:00:00 ETA:  00:00:00                                                                                67% (114 of 169) |##############        | Elapsed Time: 0:00:00 ETA:   0:00:00                                                                               100% (169 of 169) |######################| Elapsed Time: 0:00:00 Time:  0:00:00
+                                                                               N/A% (0 of 418) |                        | Elapsed Time: 0:00:00 ETA:  --:--:--                                                                                14% (59 of 418) |###                    | Elapsed Time: 0:00:00 ETA:  00:00:00                                                                                29% (122 of 418) |######                | Elapsed Time: 0:00:00 ETA:   0:00:00                                                                                38% (159 of 418) |########              | Elapsed Time: 0:00:00 ETA:   0:00:00                                                                                48% (202 of 418) |##########            | Elapsed Time: 0:00:00 ETA:   0:00:00                                                                                57% (239 of 418) |############          | Elapsed Time: 0:00:00 ETA:   0:00:00                                                                                66% (276 of 418) |##############        | Elapsed Time: 0:00:00 ETA:   0:00:00                                                                                74% (313 of 418) |################      | Elapsed Time: 0:00:00 ETA:   0:00:00                                                                                84% (355 of 418) |##################    | Elapsed Time: 0:00:00 ETA:   0:00:00                                                                                93% (392 of 418) |####################  | Elapsed Time: 0:00:00 ETA:   0:00:00                                                                               100% (418 of 418) |######################| Elapsed Time: 0:00:00 Time:  0:00:00
+shuffling dataset_train
+shuffling dataset_eva
+shuffling dataset_test
+
+Test set: Average loss: 0.0016, Accuracy: 195/418 (0.47%)
+
+[[121  59]
+ [164  74]]
+macro f-score 418 0.459676
+
+Train Epoch: 1 [0/1516 (0%)]	Ave loss: 0.001913 and Total weight loss 0.011955 and Total grad fro-norm 3.526824
+Train Epoch: 1 [16/1516 (1%)]	Ave loss: 0.001673 and Total weight loss 0.011864 and Total grad fro-norm 4.652349
+Train Epoch: 1 [32/1516 (2%)]	Ave loss: 0.001714 and Total weight loss 0.011787 and Total grad fro-norm 9.389734
+Train Epoch: 1 [48/1516 (3%)]	Ave loss: 0.001918 and Total weight loss 0.011702 and Total grad fro-norm 6.057310
+Train Epoch: 1 [64/1516 (4%)]	Ave loss: 0.001057 and Total weight loss 0.011614 and Total grad fro-norm 11.592996
+Train Epoch: 1 [80/1516 (5%)]	Ave loss: 0.001820 and Total weight loss 0.011558 and Total grad fro-norm 12.155307
+Train Epoch: 1 [96/1516 (6%)]	Ave loss: 0.002256 and Total weight loss 0.011503 and Total grad fro-norm 5.802012
+Train Epoch: 1 [112/1516 (7%)]	Ave loss: 0.002002 and Total weight loss 0.011458 and Total grad fro-norm 3.950508
+Train Epoch: 1 [128/1516 (8%)]	Ave loss: 0.002160 and Total weight loss 0.011415 and Total grad fro-norm 6.508543
+Train Epoch: 1 [144/1516 (9%)]	Ave loss: 0.001336 and Total weight loss 0.011376 and Total grad fro-norm 5.457538
+Train Epoch: 1 [160/1516 (11%)]	Ave loss: 0.001576 and Total weight loss 0.011339 and Total grad fro-norm 4.518893
+Train Epoch: 1 [176/1516 (12%)]	Ave loss: 0.001435 and Total weight loss 0.011309 and Total grad fro-norm 6.614696
+Train Epoch: 1 [192/1516 (13%)]	Ave loss: 0.001347 and Total weight loss 0.011282 and Total grad fro-norm 9.206805
+Train Epoch: 1 [208/1516 (14%)]	Ave loss: 0.001459 and Total weight loss 0.011259 and Total grad fro-norm 4.896547
+Train Epoch: 1 [224/1516 (15%)]	Ave loss: 0.001610 and Total weight loss 0.011242 and Total grad fro-norm 5.631007
+Train Epoch: 1 [240/1516 (16%)]	Ave loss: 0.001375 and Total weight loss 0.011228 and Total grad fro-norm 3.514591
+Train Epoch: 1 [256/1516 (17%)]	Ave loss: 0.001448 and Total weight loss 0.011213 and Total grad fro-norm 5.452167
+Train Epoch: 1 [272/1516 (18%)]	Ave loss: 0.001571 and Total weight loss 0.011206 and Total grad fro-norm 5.446569
+Train Epoch: 1 [288/1516 (19%)]	Ave loss: 0.002238 and Total weight loss 0.011201 and Total grad fro-norm 7.044301
+Train Epoch: 1 [304/1516 (20%)]	Ave loss: 0.001663 and Total weight loss 0.011195 and Total grad fro-norm 8.640797
+Train Epoch: 1 [320/1516 (21%)]	Ave loss: 0.001596 and Total weight loss 0.011192 and Total grad fro-norm 8.209220
+Train Epoch: 1 [336/1516 (22%)]	Ave loss: 0.001487 and Total weight loss 0.011191 and Total grad fro-norm 4.387844
+Train Epoch: 1 [352/1516 (23%)]	Ave loss: 0.001086 and Total weight loss 0.011191 and Total grad fro-norm 5.054618
+Train Epoch: 1 [368/1516 (24%)]	Ave loss: 0.001887 and Total weight loss 0.011198 and Total grad fro-norm 2.418552
+Train Epoch: 1 [384/1516 (25%)]	Ave loss: 0.001148 and Total weight loss 0.011202 and Total grad fro-norm 4.897092
+Train Epoch: 1 [400/1516 (26%)]	Ave loss: 0.001895 and Total weight loss 0.011211 and Total grad fro-norm 7.091296
+Train Epoch: 1 [416/1516 (27%)]	Ave loss: 0.002128 and Total weight loss 0.011214 and Total grad fro-norm 3.288537
+Train Epoch: 1 [432/1516 (28%)]	Ave loss: 0.001529 and Total weight loss 0.011217 and Total grad fro-norm 6.789328
+Train Epoch: 1 [448/1516 (29%)]	Ave loss: 0.001930 and Total weight loss 0.011228 and Total grad fro-norm 5.509951
+Train Epoch: 1 [464/1516 (31%)]	Ave loss: 0.001640 and Total weight loss 0.011233 and Total grad fro-norm 11.579085
+Train Epoch: 1 [480/1516 (32%)]	Ave loss: 0.001615 and Total weight loss 0.011244 and Total grad fro-norm 7.769571
+Train Epoch: 1 [496/1516 (33%)]	Ave loss: 0.001605 and Total weight loss 0.011247 and Total grad fro-norm 7.484634
+Train Epoch: 1 [512/1516 (34%)]	Ave loss: 0.001673 and Total weight loss 0.011254 and Total grad fro-norm 4.794799
+Train Epoch: 1 [528/1516 (35%)]	Ave loss: 0.001608 and Total weight loss 0.011265 and Total grad fro-norm 10.647233
+Train Epoch: 1 [544/1516 (36%)]	Ave loss: 0.001582 and Total weight loss 0.011280 and Total grad fro-norm 4.087688
+Train Epoch: 1 [560/1516 (37%)]	Ave loss: 0.001069 and Total weight loss 0.011295 and Total grad fro-norm 5.370301
+Train Epoch: 1 [576/1516 (38%)]	Ave loss: 0.001995 and Total weight loss 0.011304 and Total grad fro-norm 3.839391
+Train Epoch: 1 [592/1516 (39%)]	Ave loss: 0.001440 and Total weight loss 0.011313 and Total grad fro-norm 1.941999
+Train Epoch: 1 [608/1516 (40%)]	Ave loss: 0.001390 and Total weight loss 0.011323 and Total grad fro-norm 5.539204
+Train Epoch: 1 [624/1516 (41%)]	Ave loss: 0.001165 and Total weight loss 0.011336 and Total grad fro-norm 10.108209
+Train Epoch: 1 [640/1516 (42%)]	Ave loss: 0.001705 and Total weight loss 0.011358 and Total grad fro-norm 6.514517
+Train Epoch: 1 [656/1516 (43%)]	Ave loss: 0.002025 and Total weight loss 0.011383 and Total grad fro-norm 4.677605
+Train Epoch: 1 [672/1516 (44%)]	Ave loss: 0.001257 and Total weight loss 0.011402 and Total grad fro-norm 1.247467
+Train Epoch: 1 [688/1516 (45%)]	Ave loss: 0.001815 and Total weight loss 0.011420 and Total grad fro-norm 3.316945
+Train Epoch: 1 [704/1516 (46%)]	Ave loss: 0.001640 and Total weight loss 0.011440 and Total grad fro-norm 2.635862
+Train Epoch: 1 [720/1516 (47%)]	Ave loss: 0.001189 and Total weight loss 0.011462 and Total grad fro-norm 5.943064
+Train Epoch: 1 [736/1516 (48%)]	Ave loss: 0.001625 and Total weight loss 0.011489 and Total grad fro-norm 3.517107
+Train Epoch: 1 [752/1516 (49%)]	Ave loss: 0.001327 and Total weight loss 0.011522 and Total grad fro-norm 4.914780
+Train Epoch: 1 [768/1516 (51%)]	Ave loss: 0.002002 and Total weight loss 0.011553 and Total grad fro-norm 12.814340
+Train Epoch: 1 [784/1516 (52%)]	Ave loss: 0.001424 and Total weight loss 0.011569 and Total grad fro-norm 3.511814
+Train Epoch: 1 [800/1516 (53%)]	Ave loss: 0.002186 and Total weight loss 0.011583 and Total grad fro-norm 6.247760
+Train Epoch: 1 [816/1516 (54%)]	Ave loss: 0.001364 and Total weight loss 0.011595 and Total grad fro-norm 5.219609
+Train Epoch: 1 [832/1516 (55%)]	Ave loss: 0.001499 and Total weight loss 0.011612 and Total grad fro-norm 6.954447
+Train Epoch: 1 [848/1516 (56%)]	Ave loss: 0.001694 and Total weight loss 0.011638 and Total grad fro-norm 3.267365
+Train Epoch: 1 [864/1516 (57%)]	Ave loss: 0.001952 and Total weight loss 0.011665 and Total grad fro-norm 3.761621
+Train Epoch: 1 [880/1516 (58%)]	Ave loss: 0.001706 and Total weight loss 0.011694 and Total grad fro-norm 3.838787
+Train Epoch: 1 [896/1516 (59%)]	Ave loss: 0.001486 and Total weight loss 0.011723 and Total grad fro-norm 3.971004
+Train Epoch: 1 [912/1516 (60%)]	Ave loss: 0.001337 and Total weight loss 0.011749 and Total grad fro-norm 3.008076
+Train Epoch: 1 [928/1516 (61%)]	Ave loss: 0.001554 and Total weight loss 0.011776 and Total grad fro-norm 5.151683
+Train Epoch: 1 [944/1516 (62%)]	Ave loss: 0.001347 and Total weight loss 0.011805 and Total grad fro-norm 6.916376
+Train Epoch: 1 [960/1516 (63%)]	Ave loss: 0.001600 and Total weight loss 0.011842 and Total grad fro-norm 1.769938
+Train Epoch: 1 [976/1516 (64%)]	Ave loss: 0.001347 and Total weight loss 0.011883 and Total grad fro-norm 8.280495
+Train Epoch: 1 [992/1516 (65%)]	Ave loss: 0.001413 and Total weight loss 0.011921 and Total grad fro-norm 7.729466
+Train Epoch: 1 [1008/1516 (66%)]	Ave loss: 0.000890 and Total weight loss 0.011972 and Total grad fro-norm 6.201520
+Train Epoch: 1 [1024/1516 (67%)]	Ave loss: 0.001972 and Total weight loss 0.012016 and Total grad fro-norm 6.308892
+Train Epoch: 1 [1040/1516 (68%)]	Ave loss: 0.002041 and Total weight loss 0.012051 and Total grad fro-norm 5.639535
+Train Epoch: 1 [1056/1516 (69%)]	Ave loss: 0.001197 and Total weight loss 0.012075 and Total grad fro-norm 6.268886
+Train Epoch: 1 [1072/1516 (71%)]	Ave loss: 0.001706 and Total weight loss 0.012110 and Total grad fro-norm 5.011251
+Train Epoch: 1 [1088/1516 (72%)]	Ave loss: 0.001586 and Total weight loss 0.012143 and Total grad fro-norm 9.888798
+Train Epoch: 1 [1104/1516 (73%)]	Ave loss: 0.001737 and Total weight loss 0.012188 and Total grad fro-norm 4.407081
+Train Epoch: 1 [1120/1516 (74%)]	Ave loss: 0.001523 and Total weight loss 0.012233 and Total grad fro-norm 7.245132
+Train Epoch: 1 [1136/1516 (75%)]	Ave loss: 0.001372 and Total weight loss 0.012286 and Total grad fro-norm 8.833591
+Train Epoch: 1 [1152/1516 (76%)]	Ave loss: 0.000916 and Total weight loss 0.012336 and Total grad fro-norm 7.729980
+Train Epoch: 1 [1168/1516 (77%)]	Ave loss: 0.001415 and Total weight loss 0.012393 and Total grad fro-norm 1.913349
+Train Epoch: 1 [1184/1516 (78%)]	Ave loss: 0.001341 and Total weight loss 0.012446 and Total grad fro-norm 7.065838
+Train Epoch: 1 [1200/1516 (79%)]	Ave loss: 0.001382 and Total weight loss 0.012502 and Total grad fro-norm 6.187533
+Train Epoch: 1 [1216/1516 (80%)]	Ave loss: 0.001755 and Total weight loss 0.012558 and Total grad fro-norm 5.408135
+Train Epoch: 1 [1232/1516 (81%)]	Ave loss: 0.001006 and Total weight loss 0.012605 and Total grad fro-norm 5.843023
+Train Epoch: 1 [1248/1516 (82%)]	Ave loss: 0.001320 and Total weight loss 0.012657 and Total grad fro-norm 3.114130
+Train Epoch: 1 [1264/1516 (83%)]	Ave loss: 0.001186 and Total weight loss 0.012709 and Total grad fro-norm 5.885840
+Train Epoch: 1 [1280/1516 (84%)]	Ave loss: 0.001361 and Total weight loss 0.012770 and Total grad fro-norm 4.347295
+Train Epoch: 1 [1296/1516 (85%)]	Ave loss: 0.001852 and Total weight loss 0.012834 and Total grad fro-norm 4.450395
+Train Epoch: 1 [1312/1516 (86%)]	Ave loss: 0.001540 and Total weight loss 0.012885 and Total grad fro-norm 3.844850
+Train Epoch: 1 [1328/1516 (87%)]	Ave loss: 0.001288 and Total weight loss 0.012927 and Total grad fro-norm 8.238312
+Train Epoch: 1 [1344/1516 (88%)]	Ave loss: 0.001463 and Total weight loss 0.012969 and Total grad fro-norm 6.848441
+Train Epoch: 1 [1360/1516 (89%)]	Ave loss: 0.001588 and Total weight loss 0.013022 and Total grad fro-norm 3.261430
+Train Epoch: 1 [1376/1516 (91%)]	Ave loss: 0.001453 and Total weight loss 0.013075 and Total grad fro-norm 3.948897
+Train Epoch: 1 [1392/1516 (92%)]	Ave loss: 0.000975 and Total weight loss 0.013138 and Total grad fro-norm 3.456423
+Train Epoch: 1 [1408/1516 (93%)]	Ave loss: 0.001248 and Total weight loss 0.013199 and Total grad fro-norm 10.992544
+Train Epoch: 1 [1424/1516 (94%)]	Ave loss: 0.001844 and Total weight loss 0.013241 and Total grad fro-norm 3.668107
+Train Epoch: 1 [1440/1516 (95%)]	Ave loss: 0.001550 and Total weight loss 0.013283 and Total grad fro-norm 6.431757
+Train Epoch: 1 [1456/1516 (96%)]	Ave loss: 0.001473 and Total weight loss 0.013316 and Total grad fro-norm 4.208622
+Train Epoch: 1 [1472/1516 (97%)]	Ave loss: 0.001547 and Total weight loss 0.013342 and Total grad fro-norm 8.124923
+Train Epoch: 1 [1488/1516 (98%)]	Ave loss: 0.001627 and Total weight loss 0.013385 and Total grad fro-norm 2.368909
+Train Epoch: 1 [1128/1516 (99%)]	Ave loss: 0.002459 and Total weight loss 0.013430 and Total grad fro-norm 6.745212
+
+Test set: Average loss: 0.0015, Accuracy: 995/1516 (0.66%)
+
+[[502 256]
+ [265 493]]
+macro f-score 1516 0.656320
+
+
+Test set: Average loss: 0.0015, Accuracy: 107/169 (0.63%)
+
+[[57 28]
+ [34 50]]
+macro f-score 169 0.632506
+
+Train Epoch: 2 [0/1516 (0%)]	Ave loss: 0.001803 and Total weight loss 0.013458 and Total grad fro-norm 1.875988
+Train Epoch: 2 [16/1516 (1%)]	Ave loss: 0.001568 and Total weight loss 0.013478 and Total grad fro-norm 4.341540
+Train Epoch: 2 [32/1516 (2%)]	Ave loss: 0.001345 and Total weight loss 0.013497 and Total grad fro-norm 5.518499
+Train Epoch: 2 [48/1516 (3%)]	Ave loss: 0.001679 and Total weight loss 0.013521 and Total grad fro-norm 2.525546
+Train Epoch: 2 [64/1516 (4%)]	Ave loss: 0.000926 and Total weight loss 0.013543 and Total grad fro-norm 10.245791
+Train Epoch: 2 [80/1516 (5%)]	Ave loss: 0.001358 and Total weight loss 0.013579 and Total grad fro-norm 11.158960
+Train Epoch: 2 [96/1516 (6%)]	Ave loss: 0.001943 and Total weight loss 0.013605 and Total grad fro-norm 3.418968
+Train Epoch: 2 [112/1516 (7%)]	Ave loss: 0.001834 and Total weight loss 0.013637 and Total grad fro-norm 1.675967
+Train Epoch: 2 [128/1516 (8%)]	Ave loss: 0.002068 and Total weight loss 0.013671 and Total grad fro-norm 3.925837
+Train Epoch: 2 [144/1516 (9%)]	Ave loss: 0.001546 and Total weight loss 0.013692 and Total grad fro-norm 9.082487
+Train Epoch: 2 [160/1516 (11%)]	Ave loss: 0.001439 and Total weight loss 0.013708 and Total grad fro-norm 3.423570
+Train Epoch: 2 [176/1516 (12%)]	Ave loss: 0.001497 and Total weight loss 0.013729 and Total grad fro-norm 9.040693
+Train Epoch: 2 [192/1516 (13%)]	Ave loss: 0.001023 and Total weight loss 0.013742 and Total grad fro-norm 6.379285
+Train Epoch: 2 [208/1516 (14%)]	Ave loss: 0.001281 and Total weight loss 0.013759 and Total grad fro-norm 2.870074
+Train Epoch: 2 [224/1516 (15%)]	Ave loss: 0.001617 and Total weight loss 0.013782 and Total grad fro-norm 6.246170
+Train Epoch: 2 [240/1516 (16%)]	Ave loss: 0.001534 and Total weight loss 0.013788 and Total grad fro-norm 7.822292
+Train Epoch: 2 [256/1516 (17%)]	Ave loss: 0.001387 and Total weight loss 0.013778 and Total grad fro-norm 6.094223
+Train Epoch: 2 [272/1516 (18%)]	Ave loss: 0.001583 and Total weight loss 0.013781 and Total grad fro-norm 7.466071
+Train Epoch: 2 [288/1516 (19%)]	Ave loss: 0.002106 and Total weight loss 0.013789 and Total grad fro-norm 6.196953
+Train Epoch: 2 [304/1516 (20%)]	Ave loss: 0.001351 and Total weight loss 0.013793 and Total grad fro-norm 5.911443
+Train Epoch: 2 [320/1516 (21%)]	Ave loss: 0.001327 and Total weight loss 0.013809 and Total grad fro-norm 5.046539
+Train Epoch: 2 [336/1516 (22%)]	Ave loss: 0.001447 and Total weight loss 0.013825 and Total grad fro-norm 4.150543
+Train Epoch: 2 [352/1516 (23%)]	Ave loss: 0.000982 and Total weight loss 0.013835 and Total grad fro-norm 4.334642
+Train Epoch: 2 [368/1516 (24%)]	Ave loss: 0.001913 and Total weight loss 0.013857 and Total grad fro-norm 3.589498
+Train Epoch: 2 [384/1516 (25%)]	Ave loss: 0.001004 and Total weight loss 0.013870 and Total grad fro-norm 2.766930
+Train Epoch: 2 [400/1516 (26%)]	Ave loss: 0.002169 and Total weight loss 0.013889 and Total grad fro-norm 8.842339
+Train Epoch: 2 [416/1516 (27%)]	Ave loss: 0.002229 and Total weight loss 0.013886 and Total grad fro-norm 8.194089
+Train Epoch: 2 [432/1516 (28%)]	Ave loss: 0.001483 and Total weight loss 0.013870 and Total grad fro-norm 8.168486
+Train Epoch: 2 [448/1516 (29%)]	Ave loss: 0.002209 and Total weight loss 0.013866 and Total grad fro-norm 9.006896
+Train Epoch: 2 [464/1516 (31%)]	Ave loss: 0.001281 and Total weight loss 0.013841 and Total grad fro-norm 9.270819
+Train Epoch: 2 [480/1516 (32%)]	Ave loss: 0.001840 and Total weight loss 0.013831 and Total grad fro-norm 11.125070
+Train Epoch: 2 [496/1516 (33%)]	Ave loss: 0.001550 and Total weight loss 0.013798 and Total grad fro-norm 6.333275
+Train Epoch: 2 [512/1516 (34%)]	Ave loss: 0.001568 and Total weight loss 0.013772 and Total grad fro-norm 2.963784
+Train Epoch: 2 [528/1516 (35%)]	Ave loss: 0.001268 and Total weight loss 0.013751 and Total grad fro-norm 8.204840
+Train Epoch: 2 [544/1516 (36%)]	Ave loss: 0.001519 and Total weight loss 0.013737 and Total grad fro-norm 3.606295
+Train Epoch: 2 [560/1516 (37%)]	Ave loss: 0.001090 and Total weight loss 0.013725 and Total grad fro-norm 6.944321
+Train Epoch: 2 [576/1516 (38%)]	Ave loss: 0.002019 and Total weight loss 0.013706 and Total grad fro-norm 5.651600
+Train Epoch: 2 [592/1516 (39%)]	Ave loss: 0.001480 and Total weight loss 0.013682 and Total grad fro-norm 3.169076
+Train Epoch: 2 [608/1516 (40%)]	Ave loss: 0.001283 and Total weight loss 0.013666 and Total grad fro-norm 3.337998
+Train Epoch: 2 [624/1516 (41%)]	Ave loss: 0.000933 and Total weight loss 0.013649 and Total grad fro-norm 8.786908
+Train Epoch: 2 [640/1516 (42%)]	Ave loss: 0.001584 and Total weight loss 0.013654 and Total grad fro-norm 6.154409
+Train Epoch: 2 [656/1516 (43%)]	Ave loss: 0.002267 and Total weight loss 0.013666 and Total grad fro-norm 7.359949
+Train Epoch: 2 [672/1516 (44%)]	Ave loss: 0.001289 and Total weight loss 0.013662 and Total grad fro-norm 3.000333
+Train Epoch: 2 [688/1516 (45%)]	Ave loss: 0.001844 and Total weight loss 0.013651 and Total grad fro-norm 4.274189
+Train Epoch: 2 [704/1516 (46%)]	Ave loss: 0.001658 and Total weight loss 0.013641 and Total grad fro-norm 2.942259
+Train Epoch: 2 [720/1516 (47%)]	Ave loss: 0.001100 and Total weight loss 0.013632 and Total grad fro-norm 4.011571
+Train Epoch: 2 [736/1516 (48%)]	Ave loss: 0.001570 and Total weight loss 0.013633 and Total grad fro-norm 1.378013
+Train Epoch: 2 [752/1516 (49%)]	Ave loss: 0.001290 and Total weight loss 0.013639 and Total grad fro-norm 4.453156
+Train Epoch: 2 [768/1516 (51%)]	Ave loss: 0.002233 and Total weight loss 0.013645 and Total grad fro-norm 17.139830
+Train Epoch: 2 [784/1516 (52%)]	Ave loss: 0.001427 and Total weight loss 0.013622 and Total grad fro-norm 3.353234
+Train Epoch: 2 [800/1516 (53%)]	Ave loss: 0.002327 and Total weight loss 0.013598 and Total grad fro-norm 9.207761
+Train Epoch: 2 [816/1516 (54%)]	Ave loss: 0.001273 and Total weight loss 0.013571 and Total grad fro-norm 3.735828
+Train Epoch: 2 [832/1516 (55%)]	Ave loss: 0.001415 and Total weight loss 0.013551 and Total grad fro-norm 7.309906
+Train Epoch: 2 [848/1516 (56%)]	Ave loss: 0.001628 and Total weight loss 0.013547 and Total grad fro-norm 2.506776
+Train Epoch: 2 [864/1516 (57%)]	Ave loss: 0.001955 and Total weight loss 0.013546 and Total grad fro-norm 4.193326
+Train Epoch: 2 [880/1516 (58%)]	Ave loss: 0.001638 and Total weight loss 0.013547 and Total grad fro-norm 2.622867
+Train Epoch: 2 [896/1516 (59%)]	Ave loss: 0.001437 and Total weight loss 0.013550 and Total grad fro-norm 3.572996
+Train Epoch: 2 [912/1516 (60%)]	Ave loss: 0.001285 and Total weight loss 0.013550 and Total grad fro-norm 2.009577
+Train Epoch: 2 [928/1516 (61%)]	Ave loss: 0.001474 and Total weight loss 0.013553 and Total grad fro-norm 4.119633
+Train Epoch: 2 [944/1516 (62%)]	Ave loss: 0.001310 and Total weight loss 0.013558 and Total grad fro-norm 6.596736
+Train Epoch: 2 [960/1516 (63%)]	Ave loss: 0.001585 and Total weight loss 0.013573 and Total grad fro-norm 1.663611
+Train Epoch: 2 [976/1516 (64%)]	Ave loss: 0.001234 and Total weight loss 0.013591 and Total grad fro-norm 7.723541
+Train Epoch: 2 [992/1516 (65%)]	Ave loss: 0.001282 and Total weight loss 0.013609 and Total grad fro-norm 5.589226
+Train Epoch: 2 [1008/1516 (66%)]	Ave loss: 0.000863 and Total weight loss 0.013639 and Total grad fro-norm 5.966941
+Train Epoch: 2 [1024/1516 (67%)]	Ave loss: 0.001960 and Total weight loss 0.013660 and Total grad fro-norm 5.615081
+Train Epoch: 2 [1040/1516 (68%)]	Ave loss: 0.002045 and Total weight loss 0.013671 and Total grad fro-norm 6.081386
+Train Epoch: 2 [1056/1516 (69%)]	Ave loss: 0.001168 and Total weight loss 0.013668 and Total grad fro-norm 6.041030
+Train Epoch: 2 [1072/1516 (71%)]	Ave loss: 0.001637 and Total weight loss 0.013675 and Total grad fro-norm 4.292687
+Train Epoch: 2 [1088/1516 (72%)]	Ave loss: 0.001496 and Total weight loss 0.013682 and Total grad fro-norm 9.631661
+Train Epoch: 2 [1104/1516 (73%)]	Ave loss: 0.001724 and Total weight loss 0.013701 and Total grad fro-norm 5.115984
+Train Epoch: 2 [1120/1516 (74%)]	Ave loss: 0.001460 and Total weight loss 0.013718 and Total grad fro-norm 7.475494
+Train Epoch: 2 [1136/1516 (75%)]	Ave loss: 0.001350 and Total weight loss 0.013745 and Total grad fro-norm 8.955275
+Train Epoch: 2 [1152/1516 (76%)]	Ave loss: 0.000842 and Total weight loss 0.013768 and Total grad fro-norm 6.398574
+Train Epoch: 2 [1168/1516 (77%)]	Ave loss: 0.001408 and Total weight loss 0.013800 and Total grad fro-norm 1.808115
+Train Epoch: 2 [1184/1516 (78%)]	Ave loss: 0.001257 and Total weight loss 0.013827 and Total grad fro-norm 6.078603
+Train Epoch: 2 [1200/1516 (79%)]	Ave loss: 0.001291 and Total weight loss 0.013856 and Total grad fro-norm 5.459747
+Train Epoch: 2 [1216/1516 (80%)]	Ave loss: 0.001839 and Total weight loss 0.013890 and Total grad fro-norm 6.504023
+Train Epoch: 2 [1232/1516 (81%)]	Ave loss: 0.000950 and Total weight loss 0.013910 and Total grad fro-norm 5.065173
+Train Epoch: 2 [1248/1516 (82%)]	Ave loss: 0.001290 and Total weight loss 0.013935 and Total grad fro-norm 2.308803
+Train Epoch: 2 [1264/1516 (83%)]	Ave loss: 0.001116 and Total weight loss 0.013959 and Total grad fro-norm 5.256992
+Train Epoch: 2 [1280/1516 (84%)]	Ave loss: 0.001308 and Total weight loss 0.013996 and Total grad fro-norm 2.871776
+Train Epoch: 2 [1296/1516 (85%)]	Ave loss: 0.001860 and Total weight loss 0.014035 and Total grad fro-norm 4.445911
+Train Epoch: 2 [1312/1516 (86%)]	Ave loss: 0.001534 and Total weight loss 0.014062 and Total grad fro-norm 3.413144
+Train Epoch: 2 [1328/1516 (87%)]	Ave loss: 0.001232 and Total weight loss 0.014080 and Total grad fro-norm 8.149530
+Train Epoch: 2 [1344/1516 (88%)]	Ave loss: 0.001424 and Total weight loss 0.014101 and Total grad fro-norm 5.775671
+Train Epoch: 2 [1360/1516 (89%)]	Ave loss: 0.001571 and Total weight loss 0.014130 and Total grad fro-norm 2.972858
+Train Epoch: 2 [1376/1516 (91%)]	Ave loss: 0.001417 and Total weight loss 0.014159 and Total grad fro-norm 3.707792
+Train Epoch: 2 [1392/1516 (92%)]	Ave loss: 0.000947 and Total weight loss 0.014197 and Total grad fro-norm 2.838332
+Train Epoch: 2 [1408/1516 (93%)]	Ave loss: 0.001216 and Total weight loss 0.014236 and Total grad fro-norm 11.006233
+Train Epoch: 2 [1424/1516 (94%)]	Ave loss: 0.001867 and Total weight loss 0.014262 and Total grad fro-norm 4.192999
+Train Epoch: 2 [1440/1516 (95%)]	Ave loss: 0.001539 and Total weight loss 0.014286 and Total grad fro-norm 7.088291
+Train Epoch: 2 [1456/1516 (96%)]	Ave loss: 0.001445 and Total weight loss 0.014305 and Total grad fro-norm 4.029094
+Train Epoch: 2 [1472/1516 (97%)]	Ave loss: 0.001520 and Total weight loss 0.014318 and Total grad fro-norm 8.272967
+Train Epoch: 2 [1488/1516 (98%)]	Ave loss: 0.001642 and Total weight loss 0.014346 and Total grad fro-norm 2.838927
+Train Epoch: 2 [1128/1516 (99%)]	Ave loss: 0.002585 and Total weight loss 0.014373 and Total grad fro-norm 7.182445
+
+Test set: Average loss: 0.0015, Accuracy: 995/1516 (0.66%)
+
+[[502 256]
+ [265 493]]
+macro f-score 1516 0.656320
+
+
+Test set: Average loss: 0.0015, Accuracy: 107/169 (0.63%)
+
+[[57 28]
+ [34 50]]
+macro f-score 169 0.632506
+
+Train Epoch: 3 [0/1516 (0%)]	Ave loss: 0.001804 and Total weight loss 0.014383 and Total grad fro-norm 2.183000
+Train Epoch: 3 [16/1516 (1%)]	Ave loss: 0.001570 and Total weight loss 0.014386 and Total grad fro-norm 4.636705
+Train Epoch: 3 [32/1516 (2%)]	Ave loss: 0.001300 and Total weight loss 0.014389 and Total grad fro-norm 4.844428
+Train Epoch: 3 [48/1516 (3%)]	Ave loss: 0.001663 and Total weight loss 0.014398 and Total grad fro-norm 1.843247
+Train Epoch: 3 [64/1516 (4%)]	Ave loss: 0.000916 and Total weight loss 0.014405 and Total grad fro-norm 10.137926
+Train Epoch: 3 [80/1516 (5%)]	Ave loss: 0.001300 and Total weight loss 0.014422 and Total grad fro-norm 11.522239
+Train Epoch: 3 [96/1516 (6%)]	Ave loss: 0.001908 and Total weight loss 0.014435 and Total grad fro-norm 3.088511
+Train Epoch: 3 [112/1516 (7%)]	Ave loss: 0.001828 and Total weight loss 0.014455 and Total grad fro-norm 1.762200
+Train Epoch: 3 [128/1516 (8%)]	Ave loss: 0.002077 and Total weight loss 0.014478 and Total grad fro-norm 4.254431
+Train Epoch: 3 [144/1516 (9%)]	Ave loss: 0.001603 and Total weight loss 0.014491 and Total grad fro-norm 9.822773
+Train Epoch: 3 [160/1516 (11%)]	Ave loss: 0.001429 and Total weight loss 0.014494 and Total grad fro-norm 3.084021
+Train Epoch: 3 [176/1516 (12%)]	Ave loss: 0.001515 and Total weight loss 0.014503 and Total grad fro-norm 9.530519
+Train Epoch: 3 [192/1516 (13%)]	Ave loss: 0.000980 and Total weight loss 0.014503 and Total grad fro-norm 6.008266
+Train Epoch: 3 [208/1516 (14%)]	Ave loss: 0.001261 and Total weight loss 0.014510 and Total grad fro-norm 2.619537
+Train Epoch: 3 [224/1516 (15%)]	Ave loss: 0.001626 and Total weight loss 0.014524 and Total grad fro-norm 6.489230
+Train Epoch: 3 [240/1516 (16%)]	Ave loss: 0.001570 and Total weight loss 0.014524 and Total grad fro-norm 8.473280
+Train Epoch: 3 [256/1516 (17%)]	Ave loss: 0.001393 and Total weight loss 0.014506 and Total grad fro-norm 6.508403
+Train Epoch: 3 [272/1516 (18%)]	Ave loss: 0.001599 and Total weight loss 0.014499 and Total grad fro-norm 7.948798
+Train Epoch: 3 [288/1516 (19%)]	Ave loss: 0.002114 and Total weight loss 0.014496 and Total grad fro-norm 6.176734
+Train Epoch: 3 [304/1516 (20%)]	Ave loss: 0.001315 and Total weight loss 0.014486 and Total grad fro-norm 5.490229
+Train Epoch: 3 [320/1516 (21%)]	Ave loss: 0.001299 and Total weight loss 0.014491 and Total grad fro-norm 4.658056
+Train Epoch: 3 [336/1516 (22%)]	Ave loss: 0.001449 and Total weight loss 0.014496 and Total grad fro-norm 4.401209
+Train Epoch: 3 [352/1516 (23%)]	Ave loss: 0.000975 and Total weight loss 0.014496 and Total grad fro-norm 4.305345
+Train Epoch: 3 [368/1516 (24%)]	Ave loss: 0.001928 and Total weight loss 0.014508 and Total grad fro-norm 4.062472
+Train Epoch: 3 [384/1516 (25%)]	Ave loss: 0.000987 and Total weight loss 0.014509 and Total grad fro-norm 2.492608
+Train Epoch: 3 [400/1516 (26%)]	Ave loss: 0.002222 and Total weight loss 0.014518 and Total grad fro-norm 9.254250
+Train Epoch: 3 [416/1516 (27%)]	Ave loss: 0.002281 and Total weight loss 0.014504 and Total grad fro-norm 9.235441
+Train Epoch: 3 [432/1516 (28%)]	Ave loss: 0.001487 and Total weight loss 0.014476 and Total grad fro-norm 8.588924
+Train Epoch: 3 [448/1516 (29%)]	Ave loss: 0.002258 and Total weight loss 0.014457 and Total grad fro-norm 9.510576
+Train Epoch: 3 [464/1516 (31%)]	Ave loss: 0.001232 and Total weight loss 0.014418 and Total grad fro-norm 8.970374
+Train Epoch: 3 [480/1516 (32%)]	Ave loss: 0.001888 and Total weight loss 0.014397 and Total grad fro-norm 11.684499
+Train Epoch: 3 [496/1516 (33%)]	Ave loss: 0.001554 and Total weight loss 0.014354 and Total grad fro-norm 6.311973
+Train Epoch: 3 [512/1516 (34%)]	Ave loss: 0.001560 and Total weight loss 0.014315 and Total grad fro-norm 2.877432
+Train Epoch: 3 [528/1516 (35%)]	Ave loss: 0.001224 and Total weight loss 0.014283 and Total grad fro-norm 7.876259
+Train Epoch: 3 [544/1516 (36%)]	Ave loss: 0.001515 and Total weight loss 0.014261 and Total grad fro-norm 3.731536
+Train Epoch: 3 [560/1516 (37%)]	Ave loss: 0.001100 and Total weight loss 0.014240 and Total grad fro-norm 7.251030
+Train Epoch: 3 [576/1516 (38%)]	Ave loss: 0.002021 and Total weight loss 0.014213 and Total grad fro-norm 5.956892
+Train Epoch: 3 [592/1516 (39%)]	Ave loss: 0.001490 and Total weight loss 0.014185 and Total grad fro-norm 3.400611
+Train Epoch: 3 [608/1516 (40%)]	Ave loss: 0.001271 and Total weight loss 0.014162 and Total grad fro-norm 3.108905
+Train Epoch: 3 [624/1516 (41%)]	Ave loss: 0.000910 and Total weight loss 0.014140 and Total grad fro-norm 8.574283
+Train Epoch: 3 [640/1516 (42%)]	Ave loss: 0.001573 and Total weight loss 0.014139 and Total grad fro-norm 6.155728
+Train Epoch: 3 [656/1516 (43%)]	Ave loss: 0.002313 and Total weight loss 0.014145 and Total grad fro-norm 7.827899
+Train Epoch: 3 [672/1516 (44%)]	Ave loss: 0.001300 and Total weight loss 0.014133 and Total grad fro-norm 3.374622
+Train Epoch: 3 [688/1516 (45%)]	Ave loss: 0.001855 and Total weight loss 0.014115 and Total grad fro-norm 4.551387
+Train Epoch: 3 [704/1516 (46%)]	Ave loss: 0.001669 and Total weight loss 0.014097 and Total grad fro-norm 3.120853
+Train Epoch: 3 [720/1516 (47%)]	Ave loss: 0.001090 and Total weight loss 0.014080 and Total grad fro-norm 3.782515
+Train Epoch: 3 [736/1516 (48%)]	Ave loss: 0.001570 and Total weight loss 0.014072 and Total grad fro-norm 1.225341
+Train Epoch: 3 [752/1516 (49%)]	Ave loss: 0.001287 and Total weight loss 0.014069 and Total grad fro-norm 4.397583
+Train Epoch: 3 [768/1516 (51%)]	Ave loss: 0.002278 and Total weight loss 0.014067 and Total grad fro-norm 17.758752
+Train Epoch: 3 [784/1516 (52%)]	Ave loss: 0.001432 and Total weight loss 0.014038 and Total grad fro-norm 3.560184
+Train Epoch: 3 [800/1516 (53%)]	Ave loss: 0.002352 and Total weight loss 0.014008 and Total grad fro-norm 9.575682
+Train Epoch: 3 [816/1516 (54%)]	Ave loss: 0.001266 and Total weight loss 0.013973 and Total grad fro-norm 3.506145
+Train Epoch: 3 [832/1516 (55%)]	Ave loss: 0.001409 and Total weight loss 0.013946 and Total grad fro-norm 7.354708
+Train Epoch: 3 [848/1516 (56%)]	Ave loss: 0.001625 and Total weight loss 0.013933 and Total grad fro-norm 2.378952
+Train Epoch: 3 [864/1516 (57%)]	Ave loss: 0.001963 and Total weight loss 0.013923 and Total grad fro-norm 4.366389
+Train Epoch: 3 [880/1516 (58%)]	Ave loss: 0.001629 and Total weight loss 0.013915 and Total grad fro-norm 2.485960
+Train Epoch: 3 [896/1516 (59%)]	Ave loss: 0.001429 and Total weight loss 0.013909 and Total grad fro-norm 3.525616
+Train Epoch: 3 [912/1516 (60%)]	Ave loss: 0.001277 and Total weight loss 0.013902 and Total grad fro-norm 1.881927
+Train Epoch: 3 [928/1516 (61%)]	Ave loss: 0.001466 and Total weight loss 0.013899 and Total grad fro-norm 4.004551
+Train Epoch: 3 [944/1516 (62%)]	Ave loss: 0.001310 and Total weight loss 0.013899 and Total grad fro-norm 6.616718
+Train Epoch: 3 [960/1516 (63%)]	Ave loss: 0.001584 and Total weight loss 0.013905 and Total grad fro-norm 1.730290
+Train Epoch: 3 [976/1516 (64%)]	Ave loss: 0.001221 and Total weight loss 0.013915 and Total grad fro-norm 7.689225
+Train Epoch: 3 [992/1516 (65%)]	Ave loss: 0.001266 and Total weight loss 0.013926 and Total grad fro-norm 5.273838
+Train Epoch: 3 [1008/1516 (66%)]	Ave loss: 0.000861 and Total weight loss 0.013949 and Total grad fro-norm 5.997578
+Train Epoch: 3 [1024/1516 (67%)]	Ave loss: 0.001967 and Total weight loss 0.013964 and Total grad fro-norm 5.573189
+Train Epoch: 3 [1040/1516 (68%)]	Ave loss: 0.002047 and Total weight loss 0.013969 and Total grad fro-norm 6.275113
+Train Epoch: 3 [1056/1516 (69%)]	Ave loss: 0.001170 and Total weight loss 0.013962 and Total grad fro-norm 6.042141
+Train Epoch: 3 [1072/1516 (71%)]	Ave loss: 0.001632 and Total weight loss 0.013962 and Total grad fro-norm 4.232998
+Train Epoch: 3 [1088/1516 (72%)]	Ave loss: 0.001486 and Total weight loss 0.013964 and Total grad fro-norm 9.588356
+Train Epoch: 3 [1104/1516 (73%)]	Ave loss: 0.001728 and Total weight loss 0.013975 and Total grad fro-norm 5.250574
+Train Epoch: 3 [1120/1516 (74%)]	Ave loss: 0.001454 and Total weight loss 0.013983 and Total grad fro-norm 7.535005
+Train Epoch: 3 [1136/1516 (75%)]	Ave loss: 0.001352 and Total weight loss 0.014000 and Total grad fro-norm 9.118423
+Train Epoch: 3 [1152/1516 (76%)]	Ave loss: 0.000832 and Total weight loss 0.014015 and Total grad fro-norm 6.248006
+Train Epoch: 3 [1168/1516 (77%)]	Ave loss: 0.001405 and Total weight loss 0.014039 and Total grad fro-norm 1.960145
+Train Epoch: 3 [1184/1516 (78%)]	Ave loss: 0.001248 and Total weight loss 0.014059 and Total grad fro-norm 6.021823
+Train Epoch: 3 [1200/1516 (79%)]	Ave loss: 0.001276 and Total weight loss 0.014084 and Total grad fro-norm 5.324431
+Train Epoch: 3 [1216/1516 (80%)]	Ave loss: 0.001862 and Total weight loss 0.014113 and Total grad fro-norm 6.644663
+Train Epoch: 3 [1232/1516 (81%)]	Ave loss: 0.000944 and Total weight loss 0.014126 and Total grad fro-norm 5.055376
+Train Epoch: 3 [1248/1516 (82%)]	Ave loss: 0.001286 and Total weight loss 0.014144 and Total grad fro-norm 2.146036
+Train Epoch: 3 [1264/1516 (83%)]	Ave loss: 0.001106 and Total weight loss 0.014163 and Total grad fro-norm 5.215032
+Train Epoch: 3 [1280/1516 (84%)]	Ave loss: 0.001301 and Total weight loss 0.014193 and Total grad fro-norm 2.717204
+Train Epoch: 3 [1296/1516 (85%)]	Ave loss: 0.001864 and Total weight loss 0.014227 and Total grad fro-norm 4.541521
+Train Epoch: 3 [1312/1516 (86%)]	Ave loss: 0.001533 and Total weight loss 0.014250 and Total grad fro-norm 3.431477
+Train Epoch: 3 [1328/1516 (87%)]	Ave loss: 0.001224 and Total weight loss 0.014263 and Total grad fro-norm 8.095768
+Train Epoch: 3 [1344/1516 (88%)]	Ave loss: 0.001422 and Total weight loss 0.014282 and Total grad fro-norm 5.615818
+Train Epoch: 3 [1360/1516 (89%)]	Ave loss: 0.001571 and Total weight loss 0.014307 and Total grad fro-norm 3.021114
+Train Epoch: 3 [1376/1516 (91%)]	Ave loss: 0.001415 and Total weight loss 0.014332 and Total grad fro-norm 3.671550
+Train Epoch: 3 [1392/1516 (92%)]	Ave loss: 0.000940 and Total weight loss 0.014365 and Total grad fro-norm 2.716814
+Train Epoch: 3 [1408/1516 (93%)]	Ave loss: 0.001211 and Total weight loss 0.014400 and Total grad fro-norm 11.007318
+Train Epoch: 3 [1424/1516 (94%)]	Ave loss: 0.001872 and Total weight loss 0.014426 and Total grad fro-norm 4.305227
+Train Epoch: 3 [1440/1516 (95%)]	Ave loss: 0.001538 and Total weight loss 0.014449 and Total grad fro-norm 7.046023
+Train Epoch: 3 [1456/1516 (96%)]	Ave loss: 0.001438 and Total weight loss 0.014469 and Total grad fro-norm 4.063216
+Train Epoch: 3 [1472/1516 (97%)]	Ave loss: 0.001515 and Total weight loss 0.014484 and Total grad fro-norm 8.413554
+Train Epoch: 3 [1488/1516 (98%)]	Ave loss: 0.001651 and Total weight loss 0.014512 and Total grad fro-norm 2.883457
+Train Epoch: 3 [1128/1516 (99%)]	Ave loss: 0.002606 and Total weight loss 0.014538 and Total grad fro-norm 7.250649
+
+Test set: Average loss: 0.0015, Accuracy: 999/1516 (0.66%)
+
+[[501 257]
+ [260 498]]
+macro f-score 1516 0.658970
+
+
+Test set: Average loss: 0.0015, Accuracy: 108/169 (0.64%)
+
+[[57 28]
+ [33 51]]
+macro f-score 169 0.638598
+
+Train Epoch: 4 [0/1516 (0%)]	Ave loss: 0.001801 and Total weight loss 0.014545 and Total grad fro-norm 2.249861
+Train Epoch: 4 [16/1516 (1%)]	Ave loss: 0.001566 and Total weight loss 0.014547 and Total grad fro-norm 4.623237
+Train Epoch: 4 [32/1516 (2%)]	Ave loss: 0.001291 and Total weight loss 0.014549 and Total grad fro-norm 4.748405
+Train Epoch: 4 [48/1516 (3%)]	Ave loss: 0.001662 and Total weight loss 0.014558 and Total grad fro-norm 1.707336
+Train Epoch: 4 [64/1516 (4%)]	Ave loss: 0.000912 and Total weight loss 0.014565 and Total grad fro-norm 10.109284
+Train Epoch: 4 [80/1516 (5%)]	Ave loss: 0.001284 and Total weight loss 0.014579 and Total grad fro-norm 11.717847
+Train Epoch: 4 [96/1516 (6%)]	Ave loss: 0.001903 and Total weight loss 0.014593 and Total grad fro-norm 3.044068
+Train Epoch: 4 [112/1516 (7%)]	Ave loss: 0.001827 and Total weight loss 0.014613 and Total grad fro-norm 1.809464
+Train Epoch: 4 [128/1516 (8%)]	Ave loss: 0.002072 and Total weight loss 0.014636 and Total grad fro-norm 4.309271
+Train Epoch: 4 [144/1516 (9%)]	Ave loss: 0.001614 and Total weight loss 0.014651 and Total grad fro-norm 9.928919
+Train Epoch: 4 [160/1516 (11%)]	Ave loss: 0.001429 and Total weight loss 0.014653 and Total grad fro-norm 2.972644
+Train Epoch: 4 [176/1516 (12%)]	Ave loss: 0.001510 and Total weight loss 0.014663 and Total grad fro-norm 9.562675
+Train Epoch: 4 [192/1516 (13%)]	Ave loss: 0.000973 and Total weight loss 0.014663 and Total grad fro-norm 5.931724
+Train Epoch: 4 [208/1516 (14%)]	Ave loss: 0.001255 and Total weight loss 0.014671 and Total grad fro-norm 2.568750
+Train Epoch: 4 [224/1516 (15%)]	Ave loss: 0.001625 and Total weight loss 0.014685 and Total grad fro-norm 6.463525
+Train Epoch: 4 [240/1516 (16%)]	Ave loss: 0.001572 and Total weight loss 0.014688 and Total grad fro-norm 8.530896
+Train Epoch: 4 [256/1516 (17%)]	Ave loss: 0.001396 and Total weight loss 0.014674 and Total grad fro-norm 6.644416
+Train Epoch: 4 [272/1516 (18%)]	Ave loss: 0.001600 and Total weight loss 0.014667 and Total grad fro-norm 8.008488
+Train Epoch: 4 [288/1516 (19%)]	Ave loss: 0.002123 and Total weight loss 0.014663 and Total grad fro-norm 6.200505
+Train Epoch: 4 [304/1516 (20%)]	Ave loss: 0.001313 and Total weight loss 0.014653 and Total grad fro-norm 5.396813
+Train Epoch: 4 [320/1516 (21%)]	Ave loss: 0.001297 and Total weight loss 0.014656 and Total grad fro-norm 4.630572
+Train Epoch: 4 [336/1516 (22%)]	Ave loss: 0.001449 and Total weight loss 0.014660 and Total grad fro-norm 4.504853
+Train Epoch: 4 [352/1516 (23%)]	Ave loss: 0.000976 and Total weight loss 0.014659 and Total grad fro-norm 4.336700
+Train Epoch: 4 [368/1516 (24%)]	Ave loss: 0.001928 and Total weight loss 0.014669 and Total grad fro-norm 4.113745
+Train Epoch: 4 [384/1516 (25%)]	Ave loss: 0.000984 and Total weight loss 0.014668 and Total grad fro-norm 2.453220
+Train Epoch: 4 [400/1516 (26%)]	Ave loss: 0.002226 and Total weight loss 0.014676 and Total grad fro-norm 9.357797
+Train Epoch: 4 [416/1516 (27%)]	Ave loss: 0.002298 and Total weight loss 0.014662 and Total grad fro-norm 9.486114
+Train Epoch: 4 [432/1516 (28%)]	Ave loss: 0.001489 and Total weight loss 0.014632 and Total grad fro-norm 8.742686
+Train Epoch: 4 [448/1516 (29%)]	Ave loss: 0.002257 and Total weight loss 0.014610 and Total grad fro-norm 9.538738
+Train Epoch: 4 [464/1516 (31%)]	Ave loss: 0.001224 and Total weight loss 0.014570 and Total grad fro-norm 8.938787
+Train Epoch: 4 [480/1516 (32%)]	Ave loss: 0.001896 and Total weight loss 0.014548 and Total grad fro-norm 11.764896
+Train Epoch: 4 [496/1516 (33%)]	Ave loss: 0.001554 and Total weight loss 0.014505 and Total grad fro-norm 6.313254
+Train Epoch: 4 [512/1516 (34%)]	Ave loss: 0.001555 and Total weight loss 0.014465 and Total grad fro-norm 2.873749
+Train Epoch: 4 [528/1516 (35%)]	Ave loss: 0.001216 and Total weight loss 0.014433 and Total grad fro-norm 7.795142
+Train Epoch: 4 [544/1516 (36%)]	Ave loss: 0.001512 and Total weight loss 0.014410 and Total grad fro-norm 3.764653
+Train Epoch: 4 [560/1516 (37%)]	Ave loss: 0.001102 and Total weight loss 0.014391 and Total grad fro-norm 7.269468
+Train Epoch: 4 [576/1516 (38%)]	Ave loss: 0.002014 and Total weight loss 0.014364 and Total grad fro-norm 5.953186
+Train Epoch: 4 [592/1516 (39%)]	Ave loss: 0.001490 and Total weight loss 0.014338 and Total grad fro-norm 3.420268
+Train Epoch: 4 [608/1516 (40%)]	Ave loss: 0.001267 and Total weight loss 0.014316 and Total grad fro-norm 3.110474
+Train Epoch: 4 [624/1516 (41%)]	Ave loss: 0.000911 and Total weight loss 0.014296 and Total grad fro-norm 8.529359
+Train Epoch: 4 [640/1516 (42%)]	Ave loss: 0.001574 and Total weight loss 0.014295 and Total grad fro-norm 6.201098
+Train Epoch: 4 [656/1516 (43%)]	Ave loss: 0.002319 and Total weight loss 0.014300 and Total grad fro-norm 7.897501
+Train Epoch: 4 [672/1516 (44%)]	Ave loss: 0.001300 and Total weight loss 0.014288 and Total grad fro-norm 3.412263
+Train Epoch: 4 [688/1516 (45%)]	Ave loss: 0.001857 and Total weight loss 0.014270 and Total grad fro-norm 4.641152
+Train Epoch: 4 [704/1516 (46%)]	Ave loss: 0.001673 and Total weight loss 0.014252 and Total grad fro-norm 3.165735
+Train Epoch: 4 [720/1516 (47%)]	Ave loss: 0.001088 and Total weight loss 0.014235 and Total grad fro-norm 3.723807
+Train Epoch: 4 [736/1516 (48%)]	Ave loss: 0.001571 and Total weight loss 0.014226 and Total grad fro-norm 1.209301
+Train Epoch: 4 [752/1516 (49%)]	Ave loss: 0.001287 and Total weight loss 0.014221 and Total grad fro-norm 4.362108
+Train Epoch: 4 [768/1516 (51%)]	Ave loss: 0.002292 and Total weight loss 0.014218 and Total grad fro-norm 17.861127
+Train Epoch: 4 [784/1516 (52%)]	Ave loss: 0.001433 and Total weight loss 0.014189 and Total grad fro-norm 3.607182
+Train Epoch: 4 [800/1516 (53%)]	Ave loss: 0.002351 and Total weight loss 0.014161 and Total grad fro-norm 9.547808
+Train Epoch: 4 [816/1516 (54%)]	Ave loss: 0.001266 and Total weight loss 0.014126 and Total grad fro-norm 3.448827
+Train Epoch: 4 [832/1516 (55%)]	Ave loss: 0.001409 and Total weight loss 0.014097 and Total grad fro-norm 7.310631
+Train Epoch: 4 [848/1516 (56%)]	Ave loss: 0.001627 and Total weight loss 0.014082 and Total grad fro-norm 2.340441
+Train Epoch: 4 [864/1516 (57%)]	Ave loss: 0.001967 and Total weight loss 0.014070 and Total grad fro-norm 4.460808
+Train Epoch: 4 [880/1516 (58%)]	Ave loss: 0.001624 and Total weight loss 0.014059 and Total grad fro-norm 2.462243
+Train Epoch: 4 [896/1516 (59%)]	Ave loss: 0.001425 and Total weight loss 0.014051 and Total grad fro-norm 3.512729
+Train Epoch: 4 [912/1516 (60%)]	Ave loss: 0.001273 and Total weight loss 0.014043 and Total grad fro-norm 1.867643
+Train Epoch: 4 [928/1516 (61%)]	Ave loss: 0.001466 and Total weight loss 0.014040 and Total grad fro-norm 4.000999
+Train Epoch: 4 [944/1516 (62%)]	Ave loss: 0.001310 and Total weight loss 0.014038 and Total grad fro-norm 6.604641
+Train Epoch: 4 [960/1516 (63%)]	Ave loss: 0.001582 and Total weight loss 0.014042 and Total grad fro-norm 1.715767
+Train Epoch: 4 [976/1516 (64%)]	Ave loss: 0.001221 and Total weight loss 0.014049 and Total grad fro-norm 7.726576
+Train Epoch: 4 [992/1516 (65%)]	Ave loss: 0.001262 and Total weight loss 0.014058 and Total grad fro-norm 5.193542
+Train Epoch: 4 [1008/1516 (66%)]	Ave loss: 0.000863 and Total weight loss 0.014078 and Total grad fro-norm 6.035754
+Train Epoch: 4 [1024/1516 (67%)]	Ave loss: 0.001973 and Total weight loss 0.014091 and Total grad fro-norm 5.594139
+Train Epoch: 4 [1040/1516 (68%)]	Ave loss: 0.002046 and Total weight loss 0.014094 and Total grad fro-norm 6.354070
+Train Epoch: 4 [1056/1516 (69%)]	Ave loss: 0.001173 and Total weight loss 0.014087 and Total grad fro-norm 5.999866
+Train Epoch: 4 [1072/1516 (71%)]	Ave loss: 0.001634 and Total weight loss 0.014086 and Total grad fro-norm 4.251839
+Train Epoch: 4 [1088/1516 (72%)]	Ave loss: 0.001483 and Total weight loss 0.014085 and Total grad fro-norm 9.555685
+Train Epoch: 4 [1104/1516 (73%)]	Ave loss: 0.001729 and Total weight loss 0.014094 and Total grad fro-norm 5.199470
+Train Epoch: 4 [1120/1516 (74%)]	Ave loss: 0.001454 and Total weight loss 0.014099 and Total grad fro-norm 7.539618
+Train Epoch: 4 [1136/1516 (75%)]	Ave loss: 0.001356 and Total weight loss 0.014112 and Total grad fro-norm 9.221393
+Train Epoch: 4 [1152/1516 (76%)]	Ave loss: 0.000830 and Total weight loss 0.014123 and Total grad fro-norm 6.241613
+Train Epoch: 4 [1168/1516 (77%)]	Ave loss: 0.001401 and Total weight loss 0.014144 and Total grad fro-norm 1.943527
+Train Epoch: 4 [1184/1516 (78%)]	Ave loss: 0.001248 and Total weight loss 0.014162 and Total grad fro-norm 6.052019
+Train Epoch: 4 [1200/1516 (79%)]	Ave loss: 0.001272 and Total weight loss 0.014185 and Total grad fro-norm 5.325624
+Train Epoch: 4 [1216/1516 (80%)]	Ave loss: 0.001872 and Total weight loss 0.014213 and Total grad fro-norm 6.653681
+Train Epoch: 4 [1232/1516 (81%)]	Ave loss: 0.000943 and Total weight loss 0.014223 and Total grad fro-norm 5.128534
+Train Epoch: 4 [1248/1516 (82%)]	Ave loss: 0.001284 and Total weight loss 0.014240 and Total grad fro-norm 2.062838
+Train Epoch: 4 [1264/1516 (83%)]	Ave loss: 0.001103 and Total weight loss 0.014255 and Total grad fro-norm 5.222476
+Train Epoch: 4 [1280/1516 (84%)]	Ave loss: 0.001300 and Total weight loss 0.014284 and Total grad fro-norm 2.750363
+Train Epoch: 4 [1296/1516 (85%)]	Ave loss: 0.001866 and Total weight loss 0.014316 and Total grad fro-norm 4.619762
+Train Epoch: 4 [1312/1516 (86%)]	Ave loss: 0.001531 and Total weight loss 0.014338 and Total grad fro-norm 3.446274
+Train Epoch: 4 [1328/1516 (87%)]	Ave loss: 0.001224 and Total weight loss 0.014349 and Total grad fro-norm 8.065939
+Train Epoch: 4 [1344/1516 (88%)]	Ave loss: 0.001423 and Total weight loss 0.014369 and Total grad fro-norm 5.551940
+Train Epoch: 4 [1360/1516 (89%)]	Ave loss: 0.001572 and Total weight loss 0.014392 and Total grad fro-norm 3.087043
+Train Epoch: 4 [1376/1516 (91%)]	Ave loss: 0.001416 and Total weight loss 0.014416 and Total grad fro-norm 3.651243
+Train Epoch: 4 [1392/1516 (92%)]	Ave loss: 0.000936 and Total weight loss 0.014448 and Total grad fro-norm 2.660849
+Train Epoch: 4 [1408/1516 (93%)]	Ave loss: 0.001211 and Total weight loss 0.014482 and Total grad fro-norm 11.009308
+Train Epoch: 4 [1424/1516 (94%)]	Ave loss: 0.001872 and Total weight loss 0.014509 and Total grad fro-norm 4.330820
+Train Epoch: 4 [1440/1516 (95%)]	Ave loss: 0.001539 and Total weight loss 0.014533 and Total grad fro-norm 6.957367
+Train Epoch: 4 [1456/1516 (96%)]	Ave loss: 0.001435 and Total weight loss 0.014554 and Total grad fro-norm 4.098289
+Train Epoch: 4 [1472/1516 (97%)]	Ave loss: 0.001513 and Total weight loss 0.014571 and Total grad fro-norm 8.501407
+Train Epoch: 4 [1488/1516 (98%)]	Ave loss: 0.001656 and Total weight loss 0.014600 and Total grad fro-norm 2.863840
+Train Epoch: 4 [1128/1516 (99%)]	Ave loss: 0.002609 and Total weight loss 0.014626 and Total grad fro-norm 7.277447
+
+Test set: Average loss: 0.0015, Accuracy: 999/1516 (0.66%)
+
+[[498 260]
+ [257 501]]
+macro f-score 1516 0.658970
+
+
+Test set: Average loss: 0.0015, Accuracy: 109/169 (0.64%)
+
+[[58 27]
+ [33 51]]
+macro f-score 169 0.644360
+
+Train Epoch: 5 [0/1516 (0%)]	Ave loss: 0.001798 and Total weight loss 0.014633 and Total grad fro-norm 2.262238
+Train Epoch: 5 [16/1516 (1%)]	Ave loss: 0.001561 and Total weight loss 0.014635 and Total grad fro-norm 4.572685
+Train Epoch: 5 [32/1516 (2%)]	Ave loss: 0.001286 and Total weight loss 0.014638 and Total grad fro-norm 4.725125
+Train Epoch: 5 [48/1516 (3%)]	Ave loss: 0.001662 and Total weight loss 0.014648 and Total grad fro-norm 1.649778
+Train Epoch: 5 [64/1516 (4%)]	Ave loss: 0.000909 and Total weight loss 0.014656 and Total grad fro-norm 10.083597
+Train Epoch: 5 [80/1516 (5%)]	Ave loss: 0.001277 and Total weight loss 0.014669 and Total grad fro-norm 11.853067
+Train Epoch: 5 [96/1516 (6%)]	Ave loss: 0.001902 and Total weight loss 0.014684 and Total grad fro-norm 3.046285
+Train Epoch: 5 [112/1516 (7%)]	Ave loss: 0.001825 and Total weight loss 0.014705 and Total grad fro-norm 1.824930
+Train Epoch: 5 [128/1516 (8%)]	Ave loss: 0.002067 and Total weight loss 0.014730 and Total grad fro-norm 4.318226
+Train Epoch: 5 [144/1516 (9%)]	Ave loss: 0.001617 and Total weight loss 0.014747 and Total grad fro-norm 9.926475
+Train Epoch: 5 [160/1516 (11%)]	Ave loss: 0.001429 and Total weight loss 0.014750 and Total grad fro-norm 2.898228
+Train Epoch: 5 [176/1516 (12%)]	Ave loss: 0.001503 and Total weight loss 0.014761 and Total grad fro-norm 9.532855
+Train Epoch: 5 [192/1516 (13%)]	Ave loss: 0.000970 and Total weight loss 0.014762 and Total grad fro-norm 5.904373
+Train Epoch: 5 [208/1516 (14%)]	Ave loss: 0.001251 and Total weight loss 0.014772 and Total grad fro-norm 2.545430
+Train Epoch: 5 [224/1516 (15%)]	Ave loss: 0.001622 and Total weight loss 0.014788 and Total grad fro-norm 6.416750
+Train Epoch: 5 [240/1516 (16%)]	Ave loss: 0.001569 and Total weight loss 0.014793 and Total grad fro-norm 8.506265
+Train Epoch: 5 [256/1516 (17%)]	Ave loss: 0.001398 and Total weight loss 0.014782 and Total grad fro-norm 6.713178
+Train Epoch: 5 [272/1516 (18%)]	Ave loss: 0.001599 and Total weight loss 0.014777 and Total grad fro-norm 8.001877
+Train Epoch: 5 [288/1516 (19%)]	Ave loss: 0.002130 and Total weight loss 0.014774 and Total grad fro-norm 6.220693
+Train Epoch: 5 [304/1516 (20%)]	Ave loss: 0.001315 and Total weight loss 0.014764 and Total grad fro-norm 5.358477
+Train Epoch: 5 [320/1516 (21%)]	Ave loss: 0.001298 and Total weight loss 0.014767 and Total grad fro-norm 4.649138
+Train Epoch: 5 [336/1516 (22%)]	Ave loss: 0.001449 and Total weight loss 0.014771 and Total grad fro-norm 4.571296
+Train Epoch: 5 [352/1516 (23%)]	Ave loss: 0.000978 and Total weight loss 0.014770 and Total grad fro-norm 4.365338
+Train Epoch: 5 [368/1516 (24%)]	Ave loss: 0.001925 and Total weight loss 0.014780 and Total grad fro-norm 4.105239
+Train Epoch: 5 [384/1516 (25%)]	Ave loss: 0.000982 and Total weight loss 0.014778 and Total grad fro-norm 2.448183
+Train Epoch: 5 [400/1516 (26%)]	Ave loss: 0.002223 and Total weight loss 0.014786 and Total grad fro-norm 9.404076
+Train Epoch: 5 [416/1516 (27%)]	Ave loss: 0.002308 and Total weight loss 0.014772 and Total grad fro-norm 9.607794
+Train Epoch: 5 [432/1516 (28%)]	Ave loss: 0.001490 and Total weight loss 0.014743 and Total grad fro-norm 8.833671
+Train Epoch: 5 [448/1516 (29%)]	Ave loss: 0.002251 and Total weight loss 0.014719 and Total grad fro-norm 9.491187
+Train Epoch: 5 [464/1516 (31%)]	Ave loss: 0.001223 and Total weight loss 0.014679 and Total grad fro-norm 8.943507
+Train Epoch: 5 [480/1516 (32%)]	Ave loss: 0.001898 and Total weight loss 0.014658 and Total grad fro-norm 11.777490
+Train Epoch: 5 [496/1516 (33%)]	Ave loss: 0.001554 and Total weight loss 0.014617 and Total grad fro-norm 6.313954
+Train Epoch: 5 [512/1516 (34%)]	Ave loss: 0.001552 and Total weight loss 0.014577 and Total grad fro-norm 2.874740
+Train Epoch: 5 [528/1516 (35%)]	Ave loss: 0.001214 and Total weight loss 0.014545 and Total grad fro-norm 7.753348
+Train Epoch: 5 [544/1516 (36%)]	Ave loss: 0.001509 and Total weight loss 0.014524 and Total grad fro-norm 3.782541
+Train Epoch: 5 [560/1516 (37%)]	Ave loss: 0.001103 and Total weight loss 0.014506 and Total grad fro-norm 7.246290
+Train Epoch: 5 [576/1516 (38%)]	Ave loss: 0.002006 and Total weight loss 0.014480 and Total grad fro-norm 5.915241
+Train Epoch: 5 [592/1516 (39%)]	Ave loss: 0.001489 and Total weight loss 0.014456 and Total grad fro-norm 3.411051
+Train Epoch: 5 [608/1516 (40%)]	Ave loss: 0.001265 and Total weight loss 0.014435 and Total grad fro-norm 3.137581
+Train Epoch: 5 [624/1516 (41%)]	Ave loss: 0.000915 and Total weight loss 0.014417 and Total grad fro-norm 8.506826
+Train Epoch: 5 [640/1516 (42%)]	Ave loss: 0.001576 and Total weight loss 0.014418 and Total grad fro-norm 6.239816
+Train Epoch: 5 [656/1516 (43%)]	Ave loss: 0.002318 and Total weight loss 0.014423 and Total grad fro-norm 7.911502
+Train Epoch: 5 [672/1516 (44%)]	Ave loss: 0.001299 and Total weight loss 0.014412 and Total grad fro-norm 3.405374
+Train Epoch: 5 [688/1516 (45%)]	Ave loss: 0.001857 and Total weight loss 0.014394 and Total grad fro-norm 4.693578
+Train Epoch: 5 [704/1516 (46%)]	Ave loss: 0.001675 and Total weight loss 0.014377 and Total grad fro-norm 3.189411
+Train Epoch: 5 [720/1516 (47%)]	Ave loss: 0.001086 and Total weight loss 0.014360 and Total grad fro-norm 3.691803
+Train Epoch: 5 [736/1516 (48%)]	Ave loss: 0.001572 and Total weight loss 0.014351 and Total grad fro-norm 1.214134
+Train Epoch: 5 [752/1516 (49%)]	Ave loss: 0.001287 and Total weight loss 0.014346 and Total grad fro-norm 4.335108
+Train Epoch: 5 [768/1516 (51%)]	Ave loss: 0.002299 and Total weight loss 0.014343 and Total grad fro-norm 17.888169
+Train Epoch: 5 [784/1516 (52%)]	Ave loss: 0.001433 and Total weight loss 0.014315 and Total grad fro-norm 3.628445
+Train Epoch: 5 [800/1516 (53%)]	Ave loss: 0.002346 and Total weight loss 0.014288 and Total grad fro-norm 9.483097
+Train Epoch: 5 [816/1516 (54%)]	Ave loss: 0.001267 and Total weight loss 0.014254 and Total grad fro-norm 3.419538
+Train Epoch: 5 [832/1516 (55%)]	Ave loss: 0.001410 and Total weight loss 0.014225 and Total grad fro-norm 7.266568
+Train Epoch: 5 [848/1516 (56%)]	Ave loss: 0.001630 and Total weight loss 0.014209 and Total grad fro-norm 2.319124
+Train Epoch: 5 [864/1516 (57%)]	Ave loss: 0.001970 and Total weight loss 0.014196 and Total grad fro-norm 4.531397
+Train Epoch: 5 [880/1516 (58%)]	Ave loss: 0.001621 and Total weight loss 0.014183 and Total grad fro-norm 2.450132
+Train Epoch: 5 [896/1516 (59%)]	Ave loss: 0.001423 and Total weight loss 0.014174 and Total grad fro-norm 3.503011
+Train Epoch: 5 [912/1516 (60%)]	Ave loss: 0.001270 and Total weight loss 0.014166 and Total grad fro-norm 1.865657
+Train Epoch: 5 [928/1516 (61%)]	Ave loss: 0.001466 and Total weight loss 0.014162 and Total grad fro-norm 4.044244
+Train Epoch: 5 [944/1516 (62%)]	Ave loss: 0.001311 and Total weight loss 0.014161 and Total grad fro-norm 6.593552
+Train Epoch: 5 [960/1516 (63%)]	Ave loss: 0.001580 and Total weight loss 0.014162 and Total grad fro-norm 1.693893
+Train Epoch: 5 [976/1516 (64%)]	Ave loss: 0.001222 and Total weight loss 0.014168 and Total grad fro-norm 7.763016
+Train Epoch: 5 [992/1516 (65%)]	Ave loss: 0.001260 and Total weight loss 0.014175 and Total grad fro-norm 5.153509
+Train Epoch: 5 [1008/1516 (66%)]	Ave loss: 0.000865 and Total weight loss 0.014194 and Total grad fro-norm 6.064927
+Train Epoch: 5 [1024/1516 (67%)]	Ave loss: 0.001977 and Total weight loss 0.014207 and Total grad fro-norm 5.615320
+Train Epoch: 5 [1040/1516 (68%)]	Ave loss: 0.002044 and Total weight loss 0.014209 and Total grad fro-norm 6.406997
+Train Epoch: 5 [1056/1516 (69%)]	Ave loss: 0.001175 and Total weight loss 0.014201 and Total grad fro-norm 5.960736
+Train Epoch: 5 [1072/1516 (71%)]	Ave loss: 0.001636 and Total weight loss 0.014199 and Total grad fro-norm 4.273609
+Train Epoch: 5 [1088/1516 (72%)]	Ave loss: 0.001483 and Total weight loss 0.014198 and Total grad fro-norm 9.534538
+Train Epoch: 5 [1104/1516 (73%)]	Ave loss: 0.001729 and Total weight loss 0.014204 and Total grad fro-norm 5.137658
+Train Epoch: 5 [1120/1516 (74%)]	Ave loss: 0.001455 and Total weight loss 0.014207 and Total grad fro-norm 7.540438
+Train Epoch: 5 [1136/1516 (75%)]	Ave loss: 0.001359 and Total weight loss 0.014217 and Total grad fro-norm 9.302887
+Train Epoch: 5 [1152/1516 (76%)]	Ave loss: 0.000830 and Total weight loss 0.014227 and Total grad fro-norm 6.253452
+Train Epoch: 5 [1168/1516 (77%)]	Ave loss: 0.001398 and Total weight loss 0.014245 and Total grad fro-norm 1.912249
+Train Epoch: 5 [1184/1516 (78%)]	Ave loss: 0.001248 and Total weight loss 0.014262 and Total grad fro-norm 6.084154
+Train Epoch: 5 [1200/1516 (79%)]	Ave loss: 0.001270 and Total weight loss 0.014283 and Total grad fro-norm 5.353319
+Train Epoch: 5 [1216/1516 (80%)]	Ave loss: 0.001878 and Total weight loss 0.014310 and Total grad fro-norm 6.645282
+Train Epoch: 5 [1232/1516 (81%)]	Ave loss: 0.000944 and Total weight loss 0.014319 and Total grad fro-norm 5.198754
+Train Epoch: 5 [1248/1516 (82%)]	Ave loss: 0.001283 and Total weight loss 0.014334 and Total grad fro-norm 2.005863
+Train Epoch: 5 [1264/1516 (83%)]	Ave loss: 0.001101 and Total weight loss 0.014349 and Total grad fro-norm 5.233609
+Train Epoch: 5 [1280/1516 (84%)]	Ave loss: 0.001299 and Total weight loss 0.014375 and Total grad fro-norm 2.801262
+Train Epoch: 5 [1296/1516 (85%)]	Ave loss: 0.001867 and Total weight loss 0.014407 and Total grad fro-norm 4.683042
+Train Epoch: 5 [1312/1516 (86%)]	Ave loss: 0.001530 and Total weight loss 0.014428 and Total grad fro-norm 3.455735
+Train Epoch: 5 [1328/1516 (87%)]	Ave loss: 0.001224 and Total weight loss 0.014439 and Total grad fro-norm 8.042473
+Train Epoch: 5 [1344/1516 (88%)]	Ave loss: 0.001424 and Total weight loss 0.014459 and Total grad fro-norm 5.510552
+Train Epoch: 5 [1360/1516 (89%)]	Ave loss: 0.001573 and Total weight loss 0.014481 and Total grad fro-norm 3.146123
+Train Epoch: 5 [1376/1516 (91%)]	Ave loss: 0.001417 and Total weight loss 0.014505 and Total grad fro-norm 3.637095
+Train Epoch: 5 [1392/1516 (92%)]	Ave loss: 0.000934 and Total weight loss 0.014535 and Total grad fro-norm 2.620186
+Train Epoch: 5 [1408/1516 (93%)]	Ave loss: 0.001212 and Total weight loss 0.014569 and Total grad fro-norm 11.008923
+Train Epoch: 5 [1424/1516 (94%)]	Ave loss: 0.001872 and Total weight loss 0.014597 and Total grad fro-norm 4.343562
+Train Epoch: 5 [1440/1516 (95%)]	Ave loss: 0.001541 and Total weight loss 0.014620 and Total grad fro-norm 6.883200
+Train Epoch: 5 [1456/1516 (96%)]	Ave loss: 0.001432 and Total weight loss 0.014642 and Total grad fro-norm 4.124089
+Train Epoch: 5 [1472/1516 (97%)]	Ave loss: 0.001512 and Total weight loss 0.014661 and Total grad fro-norm 8.568086
+Train Epoch: 5 [1488/1516 (98%)]	Ave loss: 0.001660 and Total weight loss 0.014691 and Total grad fro-norm 2.847385
+Train Epoch: 5 [1128/1516 (99%)]	Ave loss: 0.002610 and Total weight loss 0.014716 and Total grad fro-norm 7.297095
+
+Test set: Average loss: 0.0015, Accuracy: 1001/1516 (0.66%)
+
+[[498 260]
+ [255 503]]
+macro f-score 1516 0.660287
+
+
+Test set: Average loss: 0.0015, Accuracy: 109/169 (0.64%)
+
+[[58 27]
+ [33 51]]
+macro f-score 169 0.644360
+
+Train Epoch: 6 [0/1516 (0%)]	Ave loss: 0.001795 and Total weight loss 0.014723 and Total grad fro-norm 2.265314
+Train Epoch: 6 [16/1516 (1%)]	Ave loss: 0.001557 and Total weight loss 0.014725 and Total grad fro-norm 4.527768
+Train Epoch: 6 [32/1516 (2%)]	Ave loss: 0.001282 and Total weight loss 0.014729 and Total grad fro-norm 4.714566
+Train Epoch: 6 [48/1516 (3%)]	Ave loss: 0.001663 and Total weight loss 0.014740 and Total grad fro-norm 1.611999
+Train Epoch: 6 [64/1516 (4%)]	Ave loss: 0.000907 and Total weight loss 0.014748 and Total grad fro-norm 10.066015
+Train Epoch: 6 [80/1516 (5%)]	Ave loss: 0.001272 and Total weight loss 0.014761 and Total grad fro-norm 11.956402
+Train Epoch: 6 [96/1516 (6%)]	Ave loss: 0.001902 and Total weight loss 0.014777 and Total grad fro-norm 3.053703
+Train Epoch: 6 [112/1516 (7%)]	Ave loss: 0.001823 and Total weight loss 0.014799 and Total grad fro-norm 1.836662
+Train Epoch: 6 [128/1516 (8%)]	Ave loss: 0.002062 and Total weight loss 0.014824 and Total grad fro-norm 4.322346
+Train Epoch: 6 [144/1516 (9%)]	Ave loss: 0.001619 and Total weight loss 0.014842 and Total grad fro-norm 9.908682
+Train Epoch: 6 [160/1516 (11%)]	Ave loss: 0.001430 and Total weight loss 0.014847 and Total grad fro-norm 2.840320
+Train Epoch: 6 [176/1516 (12%)]	Ave loss: 0.001497 and Total weight loss 0.014858 and Total grad fro-norm 9.500002
+Train Epoch: 6 [192/1516 (13%)]	Ave loss: 0.000969 and Total weight loss 0.014860 and Total grad fro-norm 5.884704
+Train Epoch: 6 [208/1516 (14%)]	Ave loss: 0.001248 and Total weight loss 0.014871 and Total grad fro-norm 2.530620
+Train Epoch: 6 [224/1516 (15%)]	Ave loss: 0.001620 and Total weight loss 0.014888 and Total grad fro-norm 6.374446
+Train Epoch: 6 [240/1516 (16%)]	Ave loss: 0.001566 and Total weight loss 0.014896 and Total grad fro-norm 8.474862
+Train Epoch: 6 [256/1516 (17%)]	Ave loss: 0.001399 and Total weight loss 0.014887 and Total grad fro-norm 6.763126
+Train Epoch: 6 [272/1516 (18%)]	Ave loss: 0.001597 and Total weight loss 0.014884 and Total grad fro-norm 7.988796
+Train Epoch: 6 [288/1516 (19%)]	Ave loss: 0.002135 and Total weight loss 0.014881 and Total grad fro-norm 6.235572
+Train Epoch: 6 [304/1516 (20%)]	Ave loss: 0.001317 and Total weight loss 0.014872 and Total grad fro-norm 5.332423
+Train Epoch: 6 [320/1516 (21%)]	Ave loss: 0.001299 and Total weight loss 0.014875 and Total grad fro-norm 4.669950
+Train Epoch: 6 [336/1516 (22%)]	Ave loss: 0.001449 and Total weight loss 0.014879 and Total grad fro-norm 4.621296
+Train Epoch: 6 [352/1516 (23%)]	Ave loss: 0.000980 and Total weight loss 0.014878 and Total grad fro-norm 4.387174
+Train Epoch: 6 [368/1516 (24%)]	Ave loss: 0.001923 and Total weight loss 0.014888 and Total grad fro-norm 4.091503
+Train Epoch: 6 [384/1516 (25%)]	Ave loss: 0.000981 and Total weight loss 0.014886 and Total grad fro-norm 2.447437
+Train Epoch: 6 [400/1516 (26%)]	Ave loss: 0.002219 and Total weight loss 0.014893 and Total grad fro-norm 9.435421
+Train Epoch: 6 [416/1516 (27%)]	Ave loss: 0.002316 and Total weight loss 0.014880 and Total grad fro-norm 9.695001
+Train Epoch: 6 [432/1516 (28%)]	Ave loss: 0.001491 and Total weight loss 0.014851 and Total grad fro-norm 8.904948
+Train Epoch: 6 [448/1516 (29%)]	Ave loss: 0.002246 and Total weight loss 0.014827 and Total grad fro-norm 9.442231
+Train Epoch: 6 [464/1516 (31%)]	Ave loss: 0.001222 and Total weight loss 0.014787 and Total grad fro-norm 8.949454
+Train Epoch: 6 [480/1516 (32%)]	Ave loss: 0.001899 and Total weight loss 0.014767 and Total grad fro-norm 11.779498
+Train Epoch: 6 [496/1516 (33%)]	Ave loss: 0.001554 and Total weight loss 0.014727 and Total grad fro-norm 6.315601
+Train Epoch: 6 [512/1516 (34%)]	Ave loss: 0.001549 and Total weight loss 0.014688 and Total grad fro-norm 2.878236
+Train Epoch: 6 [528/1516 (35%)]	Ave loss: 0.001212 and Total weight loss 0.014656 and Total grad fro-norm 7.719810
+Train Epoch: 6 [544/1516 (36%)]	Ave loss: 0.001508 and Total weight loss 0.014636 and Total grad fro-norm 3.798359
+Train Epoch: 6 [560/1516 (37%)]	Ave loss: 0.001103 and Total weight loss 0.014619 and Total grad fro-norm 7.221415
+Train Epoch: 6 [576/1516 (38%)]	Ave loss: 0.002000 and Total weight loss 0.014594 and Total grad fro-norm 5.879455
+Train Epoch: 6 [592/1516 (39%)]	Ave loss: 0.001488 and Total weight loss 0.014571 and Total grad fro-norm 3.401052
+Train Epoch: 6 [608/1516 (40%)]	Ave loss: 0.001263 and Total weight loss 0.014552 and Total grad fro-norm 3.162683
+Train Epoch: 6 [624/1516 (41%)]	Ave loss: 0.000918 and Total weight loss 0.014535 and Total grad fro-norm 8.488307
+Train Epoch: 6 [640/1516 (42%)]	Ave loss: 0.001579 and Total weight loss 0.014537 and Total grad fro-norm 6.270566
+Train Epoch: 6 [656/1516 (43%)]	Ave loss: 0.002318 and Total weight loss 0.014542 and Total grad fro-norm 7.918501
+Train Epoch: 6 [672/1516 (44%)]	Ave loss: 0.001298 and Total weight loss 0.014531 and Total grad fro-norm 3.395914
+Train Epoch: 6 [688/1516 (45%)]	Ave loss: 0.001857 and Total weight loss 0.014514 and Total grad fro-norm 4.732094
+Train Epoch: 6 [704/1516 (46%)]	Ave loss: 0.001676 and Total weight loss 0.014498 and Total grad fro-norm 3.216566
+Train Epoch: 6 [720/1516 (47%)]	Ave loss: 0.001085 and Total weight loss 0.014481 and Total grad fro-norm 3.668817
+Train Epoch: 6 [736/1516 (48%)]	Ave loss: 0.001572 and Total weight loss 0.014473 and Total grad fro-norm 1.215390
+Train Epoch: 6 [752/1516 (49%)]	Ave loss: 0.001287 and Total weight loss 0.014467 and Total grad fro-norm 4.312931
+Train Epoch: 6 [768/1516 (51%)]	Ave loss: 0.002305 and Total weight loss 0.014465 and Total grad fro-norm 17.902198
+Train Epoch: 6 [784/1516 (52%)]	Ave loss: 0.001434 and Total weight loss 0.014438 and Total grad fro-norm 3.643925
+Train Epoch: 6 [800/1516 (53%)]	Ave loss: 0.002343 and Total weight loss 0.014411 and Total grad fro-norm 9.427776
+Train Epoch: 6 [816/1516 (54%)]	Ave loss: 0.001268 and Total weight loss 0.014378 and Total grad fro-norm 3.398082
+Train Epoch: 6 [832/1516 (55%)]	Ave loss: 0.001411 and Total weight loss 0.014349 and Total grad fro-norm 7.233565
+Train Epoch: 6 [848/1516 (56%)]	Ave loss: 0.001632 and Total weight loss 0.014333 and Total grad fro-norm 2.304208
+Train Epoch: 6 [864/1516 (57%)]	Ave loss: 0.001974 and Total weight loss 0.014318 and Total grad fro-norm 4.587648
+Train Epoch: 6 [880/1516 (58%)]	Ave loss: 0.001619 and Total weight loss 0.014305 and Total grad fro-norm 2.438630
+Train Epoch: 6 [896/1516 (59%)]	Ave loss: 0.001422 and Total weight loss 0.014295 and Total grad fro-norm 3.493342
+Train Epoch: 6 [912/1516 (60%)]	Ave loss: 0.001267 and Total weight loss 0.014286 and Total grad fro-norm 1.863509
+Train Epoch: 6 [928/1516 (61%)]	Ave loss: 0.001467 and Total weight loss 0.014282 and Total grad fro-norm 4.078876
+Train Epoch: 6 [944/1516 (62%)]	Ave loss: 0.001311 and Total weight loss 0.014280 and Total grad fro-norm 6.587784
+Train Epoch: 6 [960/1516 (63%)]	Ave loss: 0.001579 and Total weight loss 0.014281 and Total grad fro-norm 1.675984
+Train Epoch: 6 [976/1516 (64%)]	Ave loss: 0.001224 and Total weight loss 0.014286 and Total grad fro-norm 7.791572
+Train Epoch: 6 [992/1516 (65%)]	Ave loss: 0.001259 and Total weight loss 0.014292 and Total grad fro-norm 5.125615
+Train Epoch: 6 [1008/1516 (66%)]	Ave loss: 0.000867 and Total weight loss 0.014309 and Total grad fro-norm 6.086184
+Train Epoch: 6 [1024/1516 (67%)]	Ave loss: 0.001981 and Total weight loss 0.014321 and Total grad fro-norm 5.631868
+Train Epoch: 6 [1040/1516 (68%)]	Ave loss: 0.002043 and Total weight loss 0.014323 and Total grad fro-norm 6.448409
+Train Epoch: 6 [1056/1516 (69%)]	Ave loss: 0.001176 and Total weight loss 0.014315 and Total grad fro-norm 5.929992
+Train Epoch: 6 [1072/1516 (71%)]	Ave loss: 0.001638 and Total weight loss 0.014312 and Total grad fro-norm 4.290742
+Train Epoch: 6 [1088/1516 (72%)]	Ave loss: 0.001482 and Total weight loss 0.014310 and Total grad fro-norm 9.522331
+Train Epoch: 6 [1104/1516 (73%)]	Ave loss: 0.001729 and Total weight loss 0.014315 and Total grad fro-norm 5.087145
+Train Epoch: 6 [1120/1516 (74%)]	Ave loss: 0.001455 and Total weight loss 0.014316 and Total grad fro-norm 7.543802
+Train Epoch: 6 [1136/1516 (75%)]	Ave loss: 0.001362 and Total weight loss 0.014324 and Total grad fro-norm 9.370051
+Train Epoch: 6 [1152/1516 (76%)]	Ave loss: 0.000830 and Total weight loss 0.014332 and Total grad fro-norm 6.266541
+Train Epoch: 6 [1168/1516 (77%)]	Ave loss: 0.001396 and Total weight loss 0.014349 and Total grad fro-norm 1.886608
+Train Epoch: 6 [1184/1516 (78%)]	Ave loss: 0.001249 and Total weight loss 0.014364 and Total grad fro-norm 6.109526
+Train Epoch: 6 [1200/1516 (79%)]	Ave loss: 0.001268 and Total weight loss 0.014385 and Total grad fro-norm 5.382468
+Train Epoch: 6 [1216/1516 (80%)]	Ave loss: 0.001884 and Total weight loss 0.014411 and Total grad fro-norm 6.635479
+Train Epoch: 6 [1232/1516 (81%)]	Ave loss: 0.000944 and Total weight loss 0.014418 and Total grad fro-norm 5.257290
+Train Epoch: 6 [1248/1516 (82%)]	Ave loss: 0.001282 and Total weight loss 0.014432 and Total grad fro-norm 1.964091
+Train Epoch: 6 [1264/1516 (83%)]	Ave loss: 0.001100 and Total weight loss 0.014446 and Total grad fro-norm 5.243968
+Train Epoch: 6 [1280/1516 (84%)]	Ave loss: 0.001298 and Total weight loss 0.014471 and Total grad fro-norm 2.846805
+Train Epoch: 6 [1296/1516 (85%)]	Ave loss: 0.001868 and Total weight loss 0.014502 and Total grad fro-norm 4.734653
+Train Epoch: 6 [1312/1516 (86%)]	Ave loss: 0.001529 and Total weight loss 0.014523 and Total grad fro-norm 3.462150
+Train Epoch: 6 [1328/1516 (87%)]	Ave loss: 0.001224 and Total weight loss 0.014533 and Total grad fro-norm 8.022285
+Train Epoch: 6 [1344/1516 (88%)]	Ave loss: 0.001425 and Total weight loss 0.014553 and Total grad fro-norm 5.480524
+Train Epoch: 6 [1360/1516 (89%)]	Ave loss: 0.001574 and Total weight loss 0.014575 and Total grad fro-norm 3.195776
+Train Epoch: 6 [1376/1516 (91%)]	Ave loss: 0.001417 and Total weight loss 0.014597 and Total grad fro-norm 3.626909
+Train Epoch: 6 [1392/1516 (92%)]	Ave loss: 0.000932 and Total weight loss 0.014627 and Total grad fro-norm 2.587055
+Train Epoch: 6 [1408/1516 (93%)]	Ave loss: 0.001213 and Total weight loss 0.014660 and Total grad fro-norm 11.006698
+Train Epoch: 6 [1424/1516 (94%)]	Ave loss: 0.001872 and Total weight loss 0.014688 and Total grad fro-norm 4.353471
+Train Epoch: 6 [1440/1516 (95%)]	Ave loss: 0.001542 and Total weight loss 0.014712 and Total grad fro-norm 6.825603
+Train Epoch: 6 [1456/1516 (96%)]	Ave loss: 0.001430 and Total weight loss 0.014734 and Total grad fro-norm 4.142585
+Train Epoch: 6 [1472/1516 (97%)]	Ave loss: 0.001511 and Total weight loss 0.014754 and Total grad fro-norm 8.622168
+Train Epoch: 6 [1488/1516 (98%)]	Ave loss: 0.001664 and Total weight loss 0.014784 and Total grad fro-norm 2.842032
+Train Epoch: 6 [1128/1516 (99%)]	Ave loss: 0.002611 and Total weight loss 0.014810 and Total grad fro-norm 7.313778
+
+Test set: Average loss: 0.0015, Accuracy: 999/1516 (0.66%)
+
+[[494 264]
+ [253 505]]
+macro f-score 1516 0.658953
+
+
+Test set: Average loss: 0.0015, Accuracy: 109/169 (0.64%)
+
+[[58 27]
+ [33 51]]
+macro f-score 169 0.644360
+
+Train Epoch: 7 [0/1516 (0%)]	Ave loss: 0.001793 and Total weight loss 0.014816 and Total grad fro-norm 2.266131
+Train Epoch: 7 [16/1516 (1%)]	Ave loss: 0.001554 and Total weight loss 0.014818 and Total grad fro-norm 4.491681
+Train Epoch: 7 [32/1516 (2%)]	Ave loss: 0.001280 and Total weight loss 0.014822 and Total grad fro-norm 4.707881
+Train Epoch: 7 [48/1516 (3%)]	Ave loss: 0.001664 and Total weight loss 0.014834 and Total grad fro-norm 1.584111
+Train Epoch: 7 [64/1516 (4%)]	Ave loss: 0.000905 and Total weight loss 0.014843 and Total grad fro-norm 10.054693
+Train Epoch: 7 [80/1516 (5%)]	Ave loss: 0.001268 and Total weight loss 0.014855 and Total grad fro-norm 12.036807
+Train Epoch: 7 [96/1516 (6%)]	Ave loss: 0.001902 and Total weight loss 0.014871 and Total grad fro-norm 3.060421
+Train Epoch: 7 [112/1516 (7%)]	Ave loss: 0.001822 and Total weight loss 0.014893 and Total grad fro-norm 1.847859
+Train Epoch: 7 [128/1516 (8%)]	Ave loss: 0.002058 and Total weight loss 0.014919 and Total grad fro-norm 4.326585
+Train Epoch: 7 [144/1516 (9%)]	Ave loss: 0.001620 and Total weight loss 0.014939 and Total grad fro-norm 9.889175
+Train Epoch: 7 [160/1516 (11%)]	Ave loss: 0.001430 and Total weight loss 0.014944 and Total grad fro-norm 2.794144
+Train Epoch: 7 [176/1516 (12%)]	Ave loss: 0.001492 and Total weight loss 0.014955 and Total grad fro-norm 9.471226
+Train Epoch: 7 [192/1516 (13%)]	Ave loss: 0.000968 and Total weight loss 0.014958 and Total grad fro-norm 5.867797
+Train Epoch: 7 [208/1516 (14%)]	Ave loss: 0.001246 and Total weight loss 0.014970 and Total grad fro-norm 2.520276
+Train Epoch: 7 [224/1516 (15%)]	Ave loss: 0.001618 and Total weight loss 0.014988 and Total grad fro-norm 6.339517
+Train Epoch: 7 [240/1516 (16%)]	Ave loss: 0.001564 and Total weight loss 0.014998 and Total grad fro-norm 8.447150
+Train Epoch: 7 [256/1516 (17%)]	Ave loss: 0.001400 and Total weight loss 0.014991 and Total grad fro-norm 6.802709
+Train Epoch: 7 [272/1516 (18%)]	Ave loss: 0.001596 and Total weight loss 0.014988 and Total grad fro-norm 7.976499
+Train Epoch: 7 [288/1516 (19%)]	Ave loss: 0.002139 and Total weight loss 0.014985 and Total grad fro-norm 6.246777
+Train Epoch: 7 [304/1516 (20%)]	Ave loss: 0.001318 and Total weight loss 0.014976 and Total grad fro-norm 5.312444
+Train Epoch: 7 [320/1516 (21%)]	Ave loss: 0.001300 and Total weight loss 0.014979 and Total grad fro-norm 4.688114
+Train Epoch: 7 [336/1516 (22%)]	Ave loss: 0.001449 and Total weight loss 0.014984 and Total grad fro-norm 4.660571
+Train Epoch: 7 [352/1516 (23%)]	Ave loss: 0.000982 and Total weight loss 0.014983 and Total grad fro-norm 4.403243
+Train Epoch: 7 [368/1516 (24%)]	Ave loss: 0.001922 and Total weight loss 0.014992 and Total grad fro-norm 4.079180
+Train Epoch: 7 [384/1516 (25%)]	Ave loss: 0.000981 and Total weight loss 0.014990 and Total grad fro-norm 2.447026
+Train Epoch: 7 [400/1516 (26%)]	Ave loss: 0.002216 and Total weight loss 0.014998 and Total grad fro-norm 9.459609
+Train Epoch: 7 [416/1516 (27%)]	Ave loss: 0.002322 and Total weight loss 0.014985 and Total grad fro-norm 9.764774
+Train Epoch: 7 [432/1516 (28%)]	Ave loss: 0.001491 and Total weight loss 0.014957 and Total grad fro-norm 8.963596
+Train Epoch: 7 [448/1516 (29%)]	Ave loss: 0.002241 and Total weight loss 0.014932 and Total grad fro-norm 9.401064
+Train Epoch: 7 [464/1516 (31%)]	Ave loss: 0.001221 and Total weight loss 0.014892 and Total grad fro-norm 8.952853
+Train Epoch: 7 [480/1516 (32%)]	Ave loss: 0.001899 and Total weight loss 0.014873 and Total grad fro-norm 11.780082
+Train Epoch: 7 [496/1516 (33%)]	Ave loss: 0.001554 and Total weight loss 0.014833 and Total grad fro-norm 6.317397
+Train Epoch: 7 [512/1516 (34%)]	Ave loss: 0.001547 and Total weight loss 0.014795 and Total grad fro-norm 2.882312
+Train Epoch: 7 [528/1516 (35%)]	Ave loss: 0.001211 and Total weight loss 0.014764 and Total grad fro-norm 7.691063
+Train Epoch: 7 [544/1516 (36%)]	Ave loss: 0.001506 and Total weight loss 0.014745 and Total grad fro-norm 3.812213
+Train Epoch: 7 [560/1516 (37%)]	Ave loss: 0.001103 and Total weight loss 0.014728 and Total grad fro-norm 7.200032
+Train Epoch: 7 [576/1516 (38%)]	Ave loss: 0.001994 and Total weight loss 0.014704 and Total grad fro-norm 5.849823
+Train Epoch: 7 [592/1516 (39%)]	Ave loss: 0.001487 and Total weight loss 0.014682 and Total grad fro-norm 3.393094
+Train Epoch: 7 [608/1516 (40%)]	Ave loss: 0.001262 and Total weight loss 0.014663 and Total grad fro-norm 3.183648
+Train Epoch: 7 [624/1516 (41%)]	Ave loss: 0.000921 and Total weight loss 0.014648 and Total grad fro-norm 8.472612
+Train Epoch: 7 [640/1516 (42%)]	Ave loss: 0.001581 and Total weight loss 0.014650 and Total grad fro-norm 6.294514
+Train Epoch: 7 [656/1516 (43%)]	Ave loss: 0.002317 and Total weight loss 0.014656 and Total grad fro-norm 7.924391
+Train Epoch: 7 [672/1516 (44%)]	Ave loss: 0.001298 and Total weight loss 0.014645 and Total grad fro-norm 3.388531
+Train Epoch: 7 [688/1516 (45%)]	Ave loss: 0.001856 and Total weight loss 0.014628 and Total grad fro-norm 4.762226
+Train Epoch: 7 [704/1516 (46%)]	Ave loss: 0.001678 and Total weight loss 0.014613 and Total grad fro-norm 3.240217
+Train Epoch: 7 [720/1516 (47%)]	Ave loss: 0.001084 and Total weight loss 0.014597 and Total grad fro-norm 3.651382
+Train Epoch: 7 [736/1516 (48%)]	Ave loss: 0.001572 and Total weight loss 0.014588 and Total grad fro-norm 1.215491
+Train Epoch: 7 [752/1516 (49%)]	Ave loss: 0.001287 and Total weight loss 0.014583 and Total grad fro-norm 4.294630
+Train Epoch: 7 [768/1516 (51%)]	Ave loss: 0.002310 and Total weight loss 0.014580 and Total grad fro-norm 17.913117
+Train Epoch: 7 [784/1516 (52%)]	Ave loss: 0.001434 and Total weight loss 0.014554 and Total grad fro-norm 3.656811
+Train Epoch: 7 [800/1516 (53%)]	Ave loss: 0.002340 and Total weight loss 0.014528 and Total grad fro-norm 9.384148
+Train Epoch: 7 [816/1516 (54%)]	Ave loss: 0.001269 and Total weight loss 0.014495 and Total grad fro-norm 3.380801
+Train Epoch: 7 [832/1516 (55%)]	Ave loss: 0.001412 and Total weight loss 0.014467 and Total grad fro-norm 7.209821
+Train Epoch: 7 [848/1516 (56%)]	Ave loss: 0.001634 and Total weight loss 0.014450 and Total grad fro-norm 2.293203
+Train Epoch: 7 [864/1516 (57%)]	Ave loss: 0.001976 and Total weight loss 0.014435 and Total grad fro-norm 4.632435
+Train Epoch: 7 [880/1516 (58%)]	Ave loss: 0.001617 and Total weight loss 0.014420 and Total grad fro-norm 2.427370
+Train Epoch: 7 [896/1516 (59%)]	Ave loss: 0.001421 and Total weight loss 0.014410 and Total grad fro-norm 3.484061
+Train Epoch: 7 [912/1516 (60%)]	Ave loss: 0.001265 and Total weight loss 0.014400 and Total grad fro-norm 1.860692
+Train Epoch: 7 [928/1516 (61%)]	Ave loss: 0.001468 and Total weight loss 0.014396 and Total grad fro-norm 4.106099
+Train Epoch: 7 [944/1516 (62%)]	Ave loss: 0.001311 and Total weight loss 0.014394 and Total grad fro-norm 6.585463
+Train Epoch: 7 [960/1516 (63%)]	Ave loss: 0.001577 and Total weight loss 0.014394 and Total grad fro-norm 1.662082
+Train Epoch: 7 [976/1516 (64%)]	Ave loss: 0.001225 and Total weight loss 0.014398 and Total grad fro-norm 7.813839
+Train Epoch: 7 [992/1516 (65%)]	Ave loss: 0.001258 and Total weight loss 0.014404 and Total grad fro-norm 5.104287
+Train Epoch: 7 [1008/1516 (66%)]	Ave loss: 0.000868 and Total weight loss 0.014420 and Total grad fro-norm 6.101842
+Train Epoch: 7 [1024/1516 (67%)]	Ave loss: 0.001983 and Total weight loss 0.014431 and Total grad fro-norm 5.644785
+Train Epoch: 7 [1040/1516 (68%)]	Ave loss: 0.002042 and Total weight loss 0.014432 and Total grad fro-norm 6.481838
+Train Epoch: 7 [1056/1516 (69%)]	Ave loss: 0.001178 and Total weight loss 0.014424 and Total grad fro-norm 5.905928
+Train Epoch: 7 [1072/1516 (71%)]	Ave loss: 0.001640 and Total weight loss 0.014420 and Total grad fro-norm 4.303802
+Train Epoch: 7 [1088/1516 (72%)]	Ave loss: 0.001482 and Total weight loss 0.014417 and Total grad fro-norm 9.516077
+Train Epoch: 7 [1104/1516 (73%)]	Ave loss: 0.001730 and Total weight loss 0.014421 and Total grad fro-norm 5.047513
+Train Epoch: 7 [1120/1516 (74%)]	Ave loss: 0.001456 and Total weight loss 0.014421 and Total grad fro-norm 7.549279
+Train Epoch: 7 [1136/1516 (75%)]	Ave loss: 0.001364 and Total weight loss 0.014427 and Total grad fro-norm 9.425585
+Train Epoch: 7 [1152/1516 (76%)]	Ave loss: 0.000830 and Total weight loss 0.014434 and Total grad fro-norm 6.278358
+Train Epoch: 7 [1168/1516 (77%)]	Ave loss: 0.001394 and Total weight loss 0.014449 and Total grad fro-norm 1.867277
+Train Epoch: 7 [1184/1516 (78%)]	Ave loss: 0.001249 and Total weight loss 0.014464 and Total grad fro-norm 6.128771
+Train Epoch: 7 [1200/1516 (79%)]	Ave loss: 0.001267 and Total weight loss 0.014484 and Total grad fro-norm 5.408013
+Train Epoch: 7 [1216/1516 (80%)]	Ave loss: 0.001888 and Total weight loss 0.014509 and Total grad fro-norm 6.626821
+Train Epoch: 7 [1232/1516 (81%)]	Ave loss: 0.000944 and Total weight loss 0.014516 and Total grad fro-norm 5.305205
+Train Epoch: 7 [1248/1516 (82%)]	Ave loss: 0.001281 and Total weight loss 0.014528 and Total grad fro-norm 1.932737
+Train Epoch: 7 [1264/1516 (83%)]	Ave loss: 0.001099 and Total weight loss 0.014541 and Total grad fro-norm 5.253272
+Train Epoch: 7 [1280/1516 (84%)]	Ave loss: 0.001298 and Total weight loss 0.014565 and Total grad fro-norm 2.884937
+Train Epoch: 7 [1296/1516 (85%)]	Ave loss: 0.001869 and Total weight loss 0.014595 and Total grad fro-norm 4.777069
+Train Epoch: 7 [1312/1516 (86%)]	Ave loss: 0.001528 and Total weight loss 0.014616 and Total grad fro-norm 3.466422
+Train Epoch: 7 [1328/1516 (87%)]	Ave loss: 0.001225 and Total weight loss 0.014625 and Total grad fro-norm 8.004996
+Train Epoch: 7 [1344/1516 (88%)]	Ave loss: 0.001426 and Total weight loss 0.014645 and Total grad fro-norm 5.458179
+Train Epoch: 7 [1360/1516 (89%)]	Ave loss: 0.001575 and Total weight loss 0.014666 and Total grad fro-norm 3.236799
+Train Epoch: 7 [1376/1516 (91%)]	Ave loss: 0.001418 and Total weight loss 0.014688 and Total grad fro-norm 3.619474
+Train Epoch: 7 [1392/1516 (92%)]	Ave loss: 0.000931 and Total weight loss 0.014717 and Total grad fro-norm 2.559534
+Train Epoch: 7 [1408/1516 (93%)]	Ave loss: 0.001214 and Total weight loss 0.014750 and Total grad fro-norm 11.003701
+Train Epoch: 7 [1424/1516 (94%)]	Ave loss: 0.001872 and Total weight loss 0.014778 and Total grad fro-norm 4.361786
+Train Epoch: 7 [1440/1516 (95%)]	Ave loss: 0.001543 and Total weight loss 0.014802 and Total grad fro-norm 6.781551
+Train Epoch: 7 [1456/1516 (96%)]	Ave loss: 0.001429 and Total weight loss 0.014825 and Total grad fro-norm 4.155946
+Train Epoch: 7 [1472/1516 (97%)]	Ave loss: 0.001510 and Total weight loss 0.014845 and Total grad fro-norm 8.666876
+Train Epoch: 7 [1488/1516 (98%)]	Ave loss: 0.001667 and Total weight loss 0.014875 and Total grad fro-norm 2.835884
+Train Epoch: 7 [1128/1516 (99%)]	Ave loss: 0.002610 and Total weight loss 0.014900 and Total grad fro-norm 7.327963
+
+Test set: Average loss: 0.0015, Accuracy: 999/1516 (0.66%)
+
+[[493 265]
+ [252 506]]
+macro f-score 1516 0.658946
+
+
+Test set: Average loss: 0.0015, Accuracy: 109/169 (0.64%)
+
+[[58 27]
+ [33 51]]
+macro f-score 169 0.644360
+
+Train Epoch: 8 [0/1516 (0%)]	Ave loss: 0.001791 and Total weight loss 0.014906 and Total grad fro-norm 2.266081
+Train Epoch: 8 [16/1516 (1%)]	Ave loss: 0.001552 and Total weight loss 0.014909 and Total grad fro-norm 4.463072
+Train Epoch: 8 [32/1516 (2%)]	Ave loss: 0.001277 and Total weight loss 0.014913 and Total grad fro-norm 4.703175
+Train Epoch: 8 [48/1516 (3%)]	Ave loss: 0.001665 and Total weight loss 0.014925 and Total grad fro-norm 1.562971
+Train Epoch: 8 [64/1516 (4%)]	Ave loss: 0.000904 and Total weight loss 0.014934 and Total grad fro-norm 10.047655
+Train Epoch: 8 [80/1516 (5%)]	Ave loss: 0.001265 and Total weight loss 0.014946 and Total grad fro-norm 12.099701
+Train Epoch: 8 [96/1516 (6%)]	Ave loss: 0.001902 and Total weight loss 0.014963 and Total grad fro-norm 3.065760
+Train Epoch: 8 [112/1516 (7%)]	Ave loss: 0.001821 and Total weight loss 0.014985 and Total grad fro-norm 1.858309
+Train Epoch: 8 [128/1516 (8%)]	Ave loss: 0.002055 and Total weight loss 0.015011 and Total grad fro-norm 4.331161
+Train Epoch: 8 [144/1516 (9%)]	Ave loss: 0.001620 and Total weight loss 0.015031 and Total grad fro-norm 9.870362
+Train Epoch: 8 [160/1516 (11%)]	Ave loss: 0.001431 and Total weight loss 0.015037 and Total grad fro-norm 2.757121
+Train Epoch: 8 [176/1516 (12%)]	Ave loss: 0.001488 and Total weight loss 0.015049 and Total grad fro-norm 9.446889
+Train Epoch: 8 [192/1516 (13%)]	Ave loss: 0.000968 and Total weight loss 0.015052 and Total grad fro-norm 5.853111
+Train Epoch: 8 [208/1516 (14%)]	Ave loss: 0.001244 and Total weight loss 0.015065 and Total grad fro-norm 2.512891
+Train Epoch: 8 [224/1516 (15%)]	Ave loss: 0.001617 and Total weight loss 0.015083 and Total grad fro-norm 6.311380
+Train Epoch: 8 [240/1516 (16%)]	Ave loss: 0.001562 and Total weight loss 0.015094 and Total grad fro-norm 8.424222
+Train Epoch: 8 [256/1516 (17%)]	Ave loss: 0.001401 and Total weight loss 0.015088 and Total grad fro-norm 6.834579
+Train Epoch: 8 [272/1516 (18%)]	Ave loss: 0.001595 and Total weight loss 0.015086 and Total grad fro-norm 7.965708
+Train Epoch: 8 [288/1516 (19%)]	Ave loss: 0.002143 and Total weight loss 0.015084 and Total grad fro-norm 6.255451
+Train Epoch: 8 [304/1516 (20%)]	Ave loss: 0.001319 and Total weight loss 0.015075 and Total grad fro-norm 5.297004
+Train Epoch: 8 [320/1516 (21%)]	Ave loss: 0.001301 and Total weight loss 0.015078 and Total grad fro-norm 4.703552
+Train Epoch: 8 [336/1516 (22%)]	Ave loss: 0.001449 and Total weight loss 0.015082 and Total grad fro-norm 4.691830
+Train Epoch: 8 [352/1516 (23%)]	Ave loss: 0.000983 and Total weight loss 0.015081 and Total grad fro-norm 4.414969
+Train Epoch: 8 [368/1516 (24%)]	Ave loss: 0.001920 and Total weight loss 0.015090 and Total grad fro-norm 4.068797
+Train Epoch: 8 [384/1516 (25%)]	Ave loss: 0.000980 and Total weight loss 0.015088 and Total grad fro-norm 2.446446
+Train Epoch: 8 [400/1516 (26%)]	Ave loss: 0.002213 and Total weight loss 0.015096 and Total grad fro-norm 9.478985
+Train Epoch: 8 [416/1516 (27%)]	Ave loss: 0.002328 and Total weight loss 0.015083 and Total grad fro-norm 9.822224
+Train Epoch: 8 [432/1516 (28%)]	Ave loss: 0.001492 and Total weight loss 0.015055 and Total grad fro-norm 9.012019
+Train Epoch: 8 [448/1516 (29%)]	Ave loss: 0.002237 and Total weight loss 0.015030 and Total grad fro-norm 9.367886
+Train Epoch: 8 [464/1516 (31%)]	Ave loss: 0.001220 and Total weight loss 0.014991 and Total grad fro-norm 8.953937
+Train Epoch: 8 [480/1516 (32%)]	Ave loss: 0.001900 and Total weight loss 0.014972 and Total grad fro-norm 11.781005
+Train Epoch: 8 [496/1516 (33%)]	Ave loss: 0.001554 and Total weight loss 0.014933 and Total grad fro-norm 6.319074
+Train Epoch: 8 [512/1516 (34%)]	Ave loss: 0.001546 and Total weight loss 0.014895 and Total grad fro-norm 2.886006
+Train Epoch: 8 [528/1516 (35%)]	Ave loss: 0.001211 and Total weight loss 0.014865 and Total grad fro-norm 7.666659
+Train Epoch: 8 [544/1516 (36%)]	Ave loss: 0.001505 and Total weight loss 0.014846 and Total grad fro-norm 3.823817
+Train Epoch: 8 [560/1516 (37%)]	Ave loss: 0.001104 and Total weight loss 0.014830 and Total grad fro-norm 7.182416
+Train Epoch: 8 [576/1516 (38%)]	Ave loss: 0.001990 and Total weight loss 0.014806 and Total grad fro-norm 5.825930
+Train Epoch: 8 [592/1516 (39%)]	Ave loss: 0.001487 and Total weight loss 0.014785 and Total grad fro-norm 3.387036
+Train Epoch: 8 [608/1516 (40%)]	Ave loss: 0.001261 and Total weight loss 0.014767 and Total grad fro-norm 3.201179
+Train Epoch: 8 [624/1516 (41%)]	Ave loss: 0.000923 and Total weight loss 0.014753 and Total grad fro-norm 8.459886
+Train Epoch: 8 [640/1516 (42%)]	Ave loss: 0.001582 and Total weight loss 0.014755 and Total grad fro-norm 6.313131
+Train Epoch: 8 [656/1516 (43%)]	Ave loss: 0.002316 and Total weight loss 0.014761 and Total grad fro-norm 7.929759
+Train Epoch: 8 [672/1516 (44%)]	Ave loss: 0.001297 and Total weight loss 0.014750 and Total grad fro-norm 3.383178
+Train Epoch: 8 [688/1516 (45%)]	Ave loss: 0.001856 and Total weight loss 0.014734 and Total grad fro-norm 4.786377
+Train Epoch: 8 [704/1516 (46%)]	Ave loss: 0.001679 and Total weight loss 0.014719 and Total grad fro-norm 3.258552
+Train Epoch: 8 [720/1516 (47%)]	Ave loss: 0.001084 and Total weight loss 0.014703 and Total grad fro-norm 3.638101
+Train Epoch: 8 [736/1516 (48%)]	Ave loss: 0.001572 and Total weight loss 0.014695 and Total grad fro-norm 1.215032
+Train Epoch: 8 [752/1516 (49%)]	Ave loss: 0.001287 and Total weight loss 0.014690 and Total grad fro-norm 4.279523
+Train Epoch: 8 [768/1516 (51%)]	Ave loss: 0.002314 and Total weight loss 0.014687 and Total grad fro-norm 17.922845
+Train Epoch: 8 [784/1516 (52%)]	Ave loss: 0.001434 and Total weight loss 0.014661 and Total grad fro-norm 3.667843
+Train Epoch: 8 [800/1516 (53%)]	Ave loss: 0.002337 and Total weight loss 0.014636 and Total grad fro-norm 9.349841
+Train Epoch: 8 [816/1516 (54%)]	Ave loss: 0.001270 and Total weight loss 0.014603 and Total grad fro-norm 3.366634
+Train Epoch: 8 [832/1516 (55%)]	Ave loss: 0.001412 and Total weight loss 0.014575 and Total grad fro-norm 7.192953
+Train Epoch: 8 [848/1516 (56%)]	Ave loss: 0.001636 and Total weight loss 0.014557 and Total grad fro-norm 2.285060
+Train Epoch: 8 [864/1516 (57%)]	Ave loss: 0.001979 and Total weight loss 0.014542 and Total grad fro-norm 4.667931
+Train Epoch: 8 [880/1516 (58%)]	Ave loss: 0.001615 and Total weight loss 0.014527 and Total grad fro-norm 2.416863
+Train Epoch: 8 [896/1516 (59%)]	Ave loss: 0.001420 and Total weight loss 0.014516 and Total grad fro-norm 3.475536
+Train Epoch: 8 [912/1516 (60%)]	Ave loss: 0.001264 and Total weight loss 0.014506 and Total grad fro-norm 1.857636
+Train Epoch: 8 [928/1516 (61%)]	Ave loss: 0.001468 and Total weight loss 0.014502 and Total grad fro-norm 4.127776
+Train Epoch: 8 [944/1516 (62%)]	Ave loss: 0.001312 and Total weight loss 0.014500 and Total grad fro-norm 6.585090
+Train Epoch: 8 [960/1516 (63%)]	Ave loss: 0.001576 and Total weight loss 0.014499 and Total grad fro-norm 1.651300
+Train Epoch: 8 [976/1516 (64%)]	Ave loss: 0.001226 and Total weight loss 0.014502 and Total grad fro-norm 7.831487
+Train Epoch: 8 [992/1516 (65%)]	Ave loss: 0.001258 and Total weight loss 0.014507 and Total grad fro-norm 5.087601
+Train Epoch: 8 [1008/1516 (66%)]	Ave loss: 0.000869 and Total weight loss 0.014523 and Total grad fro-norm 6.113394
+Train Epoch: 8 [1024/1516 (67%)]	Ave loss: 0.001986 and Total weight loss 0.014533 and Total grad fro-norm 5.655026
+Train Epoch: 8 [1040/1516 (68%)]	Ave loss: 0.002041 and Total weight loss 0.014534 and Total grad fro-norm 6.509054
+Train Epoch: 8 [1056/1516 (69%)]	Ave loss: 0.001179 and Total weight loss 0.014525 and Total grad fro-norm 5.886921
+Train Epoch: 8 [1072/1516 (71%)]	Ave loss: 0.001641 and Total weight loss 0.014521 and Total grad fro-norm 4.313757
+Train Epoch: 8 [1088/1516 (72%)]	Ave loss: 0.001482 and Total weight loss 0.014517 and Total grad fro-norm 9.513773
+Train Epoch: 8 [1104/1516 (73%)]	Ave loss: 0.001730 and Total weight loss 0.014520 and Total grad fro-norm 5.016388
+Train Epoch: 8 [1120/1516 (74%)]	Ave loss: 0.001456 and Total weight loss 0.014519 and Total grad fro-norm 7.556140
+Train Epoch: 8 [1136/1516 (75%)]	Ave loss: 0.001366 and Total weight loss 0.014524 and Total grad fro-norm 9.471481
+Train Epoch: 8 [1152/1516 (76%)]	Ave loss: 0.000830 and Total weight loss 0.014529 and Total grad fro-norm 6.288602
+Train Epoch: 8 [1168/1516 (77%)]	Ave loss: 0.001392 and Total weight loss 0.014544 and Total grad fro-norm 1.852858
+Train Epoch: 8 [1184/1516 (78%)]	Ave loss: 0.001249 and Total weight loss 0.014557 and Total grad fro-norm 6.143252
+Train Epoch: 8 [1200/1516 (79%)]	Ave loss: 0.001266 and Total weight loss 0.014577 and Total grad fro-norm 5.429346
+Train Epoch: 8 [1216/1516 (80%)]	Ave loss: 0.001892 and Total weight loss 0.014601 and Total grad fro-norm 6.619753
+Train Epoch: 8 [1232/1516 (81%)]	Ave loss: 0.000944 and Total weight loss 0.014607 and Total grad fro-norm 5.344353
+Train Epoch: 8 [1248/1516 (82%)]	Ave loss: 0.001280 and Total weight loss 0.014619 and Total grad fro-norm 1.908827
+Train Epoch: 8 [1264/1516 (83%)]	Ave loss: 0.001099 and Total weight loss 0.014631 and Total grad fro-norm 5.261656
+Train Epoch: 8 [1280/1516 (84%)]	Ave loss: 0.001297 and Total weight loss 0.014655 and Total grad fro-norm 2.916426
+Train Epoch: 8 [1296/1516 (85%)]	Ave loss: 0.001870 and Total weight loss 0.014684 and Total grad fro-norm 4.812047
+Train Epoch: 8 [1312/1516 (86%)]	Ave loss: 0.001527 and Total weight loss 0.014704 and Total grad fro-norm 3.469039
+Train Epoch: 8 [1328/1516 (87%)]	Ave loss: 0.001225 and Total weight loss 0.014713 and Total grad fro-norm 7.990405
+Train Epoch: 8 [1344/1516 (88%)]	Ave loss: 0.001427 and Total weight loss 0.014732 and Total grad fro-norm 5.441402
+Train Epoch: 8 [1360/1516 (89%)]	Ave loss: 0.001575 and Total weight loss 0.014753 and Total grad fro-norm 3.270495
+Train Epoch: 8 [1376/1516 (91%)]	Ave loss: 0.001418 and Total weight loss 0.014775 and Total grad fro-norm 3.614043
+Train Epoch: 8 [1392/1516 (92%)]	Ave loss: 0.000929 and Total weight loss 0.014803 and Total grad fro-norm 2.536594
+Train Epoch: 8 [1408/1516 (93%)]	Ave loss: 0.001215 and Total weight loss 0.014835 and Total grad fro-norm 11.000572
+Train Epoch: 8 [1424/1516 (94%)]	Ave loss: 0.001872 and Total weight loss 0.014863 and Total grad fro-norm 4.368804
+Train Epoch: 8 [1440/1516 (95%)]	Ave loss: 0.001544 and Total weight loss 0.014887 and Total grad fro-norm 6.748138
+Train Epoch: 8 [1456/1516 (96%)]	Ave loss: 0.001428 and Total weight loss 0.014911 and Total grad fro-norm 4.165692
+Train Epoch: 8 [1472/1516 (97%)]	Ave loss: 0.001509 and Total weight loss 0.014931 and Total grad fro-norm 8.704198
+Train Epoch: 8 [1488/1516 (98%)]	Ave loss: 0.001669 and Total weight loss 0.014961 and Total grad fro-norm 2.829798
+Train Epoch: 8 [1128/1516 (99%)]	Ave loss: 0.002610 and Total weight loss 0.014986 and Total grad fro-norm 7.339780
+
+Test set: Average loss: 0.0015, Accuracy: 999/1516 (0.66%)
+
+[[493 265]
+ [252 506]]
+macro f-score 1516 0.658946
+
+
+Test set: Average loss: 0.0015, Accuracy: 109/169 (0.64%)
+
+[[58 27]
+ [33 51]]
+macro f-score 169 0.644360
+
+Train Epoch: 9 [0/1516 (0%)]	Ave loss: 0.001789 and Total weight loss 0.014992 and Total grad fro-norm 2.265617
+Train Epoch: 9 [16/1516 (1%)]	Ave loss: 0.001550 and Total weight loss 0.014995 and Total grad fro-norm 4.440455
+Train Epoch: 9 [32/1516 (2%)]	Ave loss: 0.001276 and Total weight loss 0.014999 and Total grad fro-norm 4.699746
+Train Epoch: 9 [48/1516 (3%)]	Ave loss: 0.001665 and Total weight loss 0.015012 and Total grad fro-norm 1.546802
+Train Epoch: 9 [64/1516 (4%)]	Ave loss: 0.000902 and Total weight loss 0.015020 and Total grad fro-norm 10.043579
+Train Epoch: 9 [80/1516 (5%)]	Ave loss: 0.001262 and Total weight loss 0.015032 and Total grad fro-norm 12.149077
+Train Epoch: 9 [96/1516 (6%)]	Ave loss: 0.001902 and Total weight loss 0.015049 and Total grad fro-norm 3.069782
+Train Epoch: 9 [112/1516 (7%)]	Ave loss: 0.001820 and Total weight loss 0.015071 and Total grad fro-norm 1.867723
+Train Epoch: 9 [128/1516 (8%)]	Ave loss: 0.002052 and Total weight loss 0.015097 and Total grad fro-norm 4.335781
+Train Epoch: 9 [144/1516 (9%)]	Ave loss: 0.001621 and Total weight loss 0.015118 and Total grad fro-norm 9.852901
+Train Epoch: 9 [160/1516 (11%)]	Ave loss: 0.001431 and Total weight loss 0.015123 and Total grad fro-norm 2.727336
+Train Epoch: 9 [176/1516 (12%)]	Ave loss: 0.001485 and Total weight loss 0.015136 and Total grad fro-norm 9.426548
+Train Epoch: 9 [192/1516 (13%)]	Ave loss: 0.000967 and Total weight loss 0.015140 and Total grad fro-norm 5.840403
+Train Epoch: 9 [208/1516 (14%)]	Ave loss: 0.001243 and Total weight loss 0.015153 and Total grad fro-norm 2.507636
+Train Epoch: 9 [224/1516 (15%)]	Ave loss: 0.001615 and Total weight loss 0.015172 and Total grad fro-norm 6.288928
+Train Epoch: 9 [240/1516 (16%)]	Ave loss: 0.001561 and Total weight loss 0.015183 and Total grad fro-norm 8.405739
+Train Epoch: 9 [256/1516 (17%)]	Ave loss: 0.001401 and Total weight loss 0.015178 and Total grad fro-norm 6.860386
+Train Epoch: 9 [272/1516 (18%)]	Ave loss: 0.001595 and Total weight loss 0.015176 and Total grad fro-norm 7.956425
+Train Epoch: 9 [288/1516 (19%)]	Ave loss: 0.002146 and Total weight loss 0.015174 and Total grad fro-norm 6.262298
+Train Epoch: 9 [304/1516 (20%)]	Ave loss: 0.001320 and Total weight loss 0.015165 and Total grad fro-norm 5.285175
+Train Epoch: 9 [320/1516 (21%)]	Ave loss: 0.001302 and Total weight loss 0.015169 and Total grad fro-norm 4.716642
+Train Epoch: 9 [336/1516 (22%)]	Ave loss: 0.001448 and Total weight loss 0.015173 and Total grad fro-norm 4.716835
+Train Epoch: 9 [352/1516 (23%)]	Ave loss: 0.000984 and Total weight loss 0.015172 and Total grad fro-norm 4.423514
+Train Epoch: 9 [368/1516 (24%)]	Ave loss: 0.001919 and Total weight loss 0.015181 and Total grad fro-norm 4.060199
+Train Epoch: 9 [384/1516 (25%)]	Ave loss: 0.000979 and Total weight loss 0.015179 and Total grad fro-norm 2.445626
+Train Epoch: 9 [400/1516 (26%)]	Ave loss: 0.002211 and Total weight loss 0.015186 and Total grad fro-norm 9.494789
+Train Epoch: 9 [416/1516 (27%)]	Ave loss: 0.002332 and Total weight loss 0.015174 and Total grad fro-norm 9.870077
+Train Epoch: 9 [432/1516 (28%)]	Ave loss: 0.001492 and Total weight loss 0.015146 and Total grad fro-norm 9.051979
+Train Epoch: 9 [448/1516 (29%)]	Ave loss: 0.002234 and Total weight loss 0.015121 and Total grad fro-norm 9.341702
+Train Epoch: 9 [464/1516 (31%)]	Ave loss: 0.001220 and Total weight loss 0.015082 and Total grad fro-norm 8.953256
+Train Epoch: 9 [480/1516 (32%)]	Ave loss: 0.001900 and Total weight loss 0.015063 and Total grad fro-norm 11.782660
+Train Epoch: 9 [496/1516 (33%)]	Ave loss: 0.001554 and Total weight loss 0.015025 and Total grad fro-norm 6.320661
+Train Epoch: 9 [512/1516 (34%)]	Ave loss: 0.001544 and Total weight loss 0.014987 and Total grad fro-norm 2.888964
+Train Epoch: 9 [528/1516 (35%)]	Ave loss: 0.001210 and Total weight loss 0.014957 and Total grad fro-norm 7.646228
+Train Epoch: 9 [544/1516 (36%)]	Ave loss: 0.001504 and Total weight loss 0.014939 and Total grad fro-norm 3.833281
+Train Epoch: 9 [560/1516 (37%)]	Ave loss: 0.001104 and Total weight loss 0.014923 and Total grad fro-norm 7.168145
+Train Epoch: 9 [576/1516 (38%)]	Ave loss: 0.001987 and Total weight loss 0.014899 and Total grad fro-norm 5.806870
+Train Epoch: 9 [592/1516 (39%)]	Ave loss: 0.001486 and Total weight loss 0.014879 and Total grad fro-norm 3.382518
+Train Epoch: 9 [608/1516 (40%)]	Ave loss: 0.001260 and Total weight loss 0.014862 and Total grad fro-norm 3.216024
+Train Epoch: 9 [624/1516 (41%)]	Ave loss: 0.000925 and Total weight loss 0.014848 and Total grad fro-norm 8.450049
+Train Epoch: 9 [640/1516 (42%)]	Ave loss: 0.001584 and Total weight loss 0.014851 and Total grad fro-norm 6.327696
+Train Epoch: 9 [656/1516 (43%)]	Ave loss: 0.002316 and Total weight loss 0.014856 and Total grad fro-norm 7.934650
+Train Epoch: 9 [672/1516 (44%)]	Ave loss: 0.001296 and Total weight loss 0.014846 and Total grad fro-norm 3.379395
+Train Epoch: 9 [688/1516 (45%)]	Ave loss: 0.001855 and Total weight loss 0.014830 and Total grad fro-norm 4.806070
+Train Epoch: 9 [704/1516 (46%)]	Ave loss: 0.001679 and Total weight loss 0.014816 and Total grad fro-norm 3.272727
+Train Epoch: 9 [720/1516 (47%)]	Ave loss: 0.001083 and Total weight loss 0.014800 and Total grad fro-norm 3.628053
+Train Epoch: 9 [736/1516 (48%)]	Ave loss: 0.001572 and Total weight loss 0.014792 and Total grad fro-norm 1.214282
+Train Epoch: 9 [752/1516 (49%)]	Ave loss: 0.001287 and Total weight loss 0.014787 and Total grad fro-norm 4.267010
+Train Epoch: 9 [768/1516 (51%)]	Ave loss: 0.002317 and Total weight loss 0.014784 and Total grad fro-norm 17.931889
+Train Epoch: 9 [784/1516 (52%)]	Ave loss: 0.001434 and Total weight loss 0.014759 and Total grad fro-norm 3.677352
+Train Epoch: 9 [800/1516 (53%)]	Ave loss: 0.002335 and Total weight loss 0.014734 and Total grad fro-norm 9.322646
+Train Epoch: 9 [816/1516 (54%)]	Ave loss: 0.001270 and Total weight loss 0.014701 and Total grad fro-norm 3.355015
+Train Epoch: 9 [832/1516 (55%)]	Ave loss: 0.001413 and Total weight loss 0.014673 and Total grad fro-norm 7.181180
+Train Epoch: 9 [848/1516 (56%)]	Ave loss: 0.001637 and Total weight loss 0.014655 and Total grad fro-norm 2.279113
+Train Epoch: 9 [864/1516 (57%)]	Ave loss: 0.001980 and Total weight loss 0.014640 and Total grad fro-norm 4.695997
+Train Epoch: 9 [880/1516 (58%)]	Ave loss: 0.001614 and Total weight loss 0.014624 and Total grad fro-norm 2.407415
+Train Epoch: 9 [896/1516 (59%)]	Ave loss: 0.001419 and Total weight loss 0.014613 and Total grad fro-norm 3.467907
+Train Epoch: 9 [912/1516 (60%)]	Ave loss: 0.001262 and Total weight loss 0.014602 and Total grad fro-norm 1.854615
+Train Epoch: 9 [928/1516 (61%)]	Ave loss: 0.001468 and Total weight loss 0.014598 and Total grad fro-norm 4.145262
+Train Epoch: 9 [944/1516 (62%)]	Ave loss: 0.001312 and Total weight loss 0.014596 and Total grad fro-norm 6.585807
+Train Epoch: 9 [960/1516 (63%)]	Ave loss: 0.001575 and Total weight loss 0.014594 and Total grad fro-norm 1.642916
+Train Epoch: 9 [976/1516 (64%)]	Ave loss: 0.001226 and Total weight loss 0.014597 and Total grad fro-norm 7.845675
+Train Epoch: 9 [992/1516 (65%)]	Ave loss: 0.001257 and Total weight loss 0.014602 and Total grad fro-norm 5.074461
+Train Epoch: 9 [1008/1516 (66%)]	Ave loss: 0.000871 and Total weight loss 0.014616 and Total grad fro-norm 6.121810
+Train Epoch: 9 [1024/1516 (67%)]	Ave loss: 0.001987 and Total weight loss 0.014627 and Total grad fro-norm 5.663227
+Train Epoch: 9 [1040/1516 (68%)]	Ave loss: 0.002041 and Total weight loss 0.014626 and Total grad fro-norm 6.531333
+Train Epoch: 9 [1056/1516 (69%)]	Ave loss: 0.001180 and Total weight loss 0.014618 and Total grad fro-norm 5.871843
+Train Epoch: 9 [1072/1516 (71%)]	Ave loss: 0.001642 and Total weight loss 0.014613 and Total grad fro-norm 4.321329
+Train Epoch: 9 [1088/1516 (72%)]	Ave loss: 0.001482 and Total weight loss 0.014609 and Total grad fro-norm 9.514137
+Train Epoch: 9 [1104/1516 (73%)]	Ave loss: 0.001730 and Total weight loss 0.014611 and Total grad fro-norm 4.991797
+Train Epoch: 9 [1120/1516 (74%)]	Ave loss: 0.001457 and Total weight loss 0.014609 and Total grad fro-norm 7.563882
+Train Epoch: 9 [1136/1516 (75%)]	Ave loss: 0.001368 and Total weight loss 0.014613 and Total grad fro-norm 9.509423
+Train Epoch: 9 [1152/1516 (76%)]	Ave loss: 0.000829 and Total weight loss 0.014617 and Total grad fro-norm 6.297372
+Train Epoch: 9 [1168/1516 (77%)]	Ave loss: 0.001391 and Total weight loss 0.014631 and Total grad fro-norm 1.842058
+Train Epoch: 9 [1184/1516 (78%)]	Ave loss: 0.001250 and Total weight loss 0.014644 and Total grad fro-norm 6.154086
+Train Epoch: 9 [1200/1516 (79%)]	Ave loss: 0.001266 and Total weight loss 0.014662 and Total grad fro-norm 5.446891
+Train Epoch: 9 [1216/1516 (80%)]	Ave loss: 0.001895 and Total weight loss 0.014687 and Total grad fro-norm 6.614225
+Train Epoch: 9 [1232/1516 (81%)]	Ave loss: 0.000944 and Total weight loss 0.014692 and Total grad fro-norm 5.376371
+Train Epoch: 9 [1248/1516 (82%)]	Ave loss: 0.001279 and Total weight loss 0.014703 and Total grad fro-norm 1.890307
+Train Epoch: 9 [1264/1516 (83%)]	Ave loss: 0.001098 and Total weight loss 0.014714 and Total grad fro-norm 5.269254
+Train Epoch: 9 [1280/1516 (84%)]	Ave loss: 0.001297 and Total weight loss 0.014737 and Total grad fro-norm 2.942332
+Train Epoch: 9 [1296/1516 (85%)]	Ave loss: 0.001870 and Total weight loss 0.014766 and Total grad fro-norm 4.840932
+Train Epoch: 9 [1312/1516 (86%)]	Ave loss: 0.001527 and Total weight loss 0.014785 and Total grad fro-norm 3.470344
+Train Epoch: 9 [1328/1516 (87%)]	Ave loss: 0.001225 and Total weight loss 0.014794 and Total grad fro-norm 7.978253
+Train Epoch: 9 [1344/1516 (88%)]	Ave loss: 0.001428 and Total weight loss 0.014814 and Total grad fro-norm 5.428747
+Train Epoch: 9 [1360/1516 (89%)]	Ave loss: 0.001575 and Total weight loss 0.014834 and Total grad fro-norm 3.298115
+Train Epoch: 9 [1376/1516 (91%)]	Ave loss: 0.001418 and Total weight loss 0.014855 and Total grad fro-norm 3.610098
+Train Epoch: 9 [1392/1516 (92%)]	Ave loss: 0.000928 and Total weight loss 0.014883 and Total grad fro-norm 2.517435
+Train Epoch: 9 [1408/1516 (93%)]	Ave loss: 0.001215 and Total weight loss 0.014915 and Total grad fro-norm 10.997623
+Train Epoch: 9 [1424/1516 (94%)]	Ave loss: 0.001871 and Total weight loss 0.014943 and Total grad fro-norm 4.374728
+Train Epoch: 9 [1440/1516 (95%)]	Ave loss: 0.001545 and Total weight loss 0.014967 and Total grad fro-norm 6.723023
+Train Epoch: 9 [1456/1516 (96%)]	Ave loss: 0.001427 and Total weight loss 0.014990 and Total grad fro-norm 4.172858
+Train Epoch: 9 [1472/1516 (97%)]	Ave loss: 0.001508 and Total weight loss 0.015010 and Total grad fro-norm 8.735600
+Train Epoch: 9 [1488/1516 (98%)]	Ave loss: 0.001671 and Total weight loss 0.015041 and Total grad fro-norm 2.824105
+Train Epoch: 9 [1128/1516 (99%)]	Ave loss: 0.002609 and Total weight loss 0.015066 and Total grad fro-norm 7.349425
+
+Test set: Average loss: 0.0015, Accuracy: 1001/1516 (0.66%)
+
+[[493 265]
+ [250 508]]
+macro f-score 1516 0.660257
+
+
+Test set: Average loss: 0.0015, Accuracy: 109/169 (0.64%)
+
+[[58 27]
+ [33 51]]
+macro f-score 169 0.644360
+
+Train Epoch: 10 [0/1516 (0%)]	Ave loss: 0.001788 and Total weight loss 0.015071 and Total grad fro-norm 2.264955
+Train Epoch: 10 [16/1516 (1%)]	Ave loss: 0.001548 and Total weight loss 0.015074 and Total grad fro-norm 4.422619
+Train Epoch: 10 [32/1516 (2%)]	Ave loss: 0.001274 and Total weight loss 0.015079 and Total grad fro-norm 4.697222
+Train Epoch: 10 [48/1516 (3%)]	Ave loss: 0.001666 and Total weight loss 0.015091 and Total grad fro-norm 1.534379
+Train Epoch: 10 [64/1516 (4%)]	Ave loss: 0.000901 and Total weight loss 0.015100 and Total grad fro-norm 10.041593
+Train Epoch: 10 [80/1516 (5%)]	Ave loss: 0.001260 and Total weight loss 0.015111 and Total grad fro-norm 12.187960
+Train Epoch: 10 [96/1516 (6%)]	Ave loss: 0.001902 and Total weight loss 0.015128 and Total grad fro-norm 3.072670
+Train Epoch: 10 [112/1516 (7%)]	Ave loss: 0.001819 and Total weight loss 0.015150 and Total grad fro-norm 1.876012
+Train Epoch: 10 [128/1516 (8%)]	Ave loss: 0.002050 and Total weight loss 0.015177 and Total grad fro-norm 4.340201
+Train Epoch: 10 [144/1516 (9%)]	Ave loss: 0.001621 and Total weight loss 0.015198 and Total grad fro-norm 9.836987
+Train Epoch: 10 [160/1516 (11%)]	Ave loss: 0.001431 and Total weight loss 0.015203 and Total grad fro-norm 2.703282
+Train Epoch: 10 [176/1516 (12%)]	Ave loss: 0.001482 and Total weight loss 0.015216 and Total grad fro-norm 9.409672
+Train Epoch: 10 [192/1516 (13%)]	Ave loss: 0.000967 and Total weight loss 0.015220 and Total grad fro-norm 5.829415
+Train Epoch: 10 [208/1516 (14%)]	Ave loss: 0.001241 and Total weight loss 0.015233 and Total grad fro-norm 2.503957
+Train Epoch: 10 [224/1516 (15%)]	Ave loss: 0.001614 and Total weight loss 0.015253 and Total grad fro-norm 6.271117
+Train Epoch: 10 [240/1516 (16%)]	Ave loss: 0.001560 and Total weight loss 0.015265 and Total grad fro-norm 8.391116
+Train Epoch: 10 [256/1516 (17%)]	Ave loss: 0.001402 and Total weight loss 0.015260 and Total grad fro-norm 6.881384
+Train Epoch: 10 [272/1516 (18%)]	Ave loss: 0.001594 and Total weight loss 0.015258 and Total grad fro-norm 7.948543
+Train Epoch: 10 [288/1516 (19%)]	Ave loss: 0.002148 and Total weight loss 0.015257 and Total grad fro-norm 6.267777
+Train Epoch: 10 [304/1516 (20%)]	Ave loss: 0.001321 and Total weight loss 0.015248 and Total grad fro-norm 5.276218
+Train Epoch: 10 [320/1516 (21%)]	Ave loss: 0.001303 and Total weight loss 0.015251 and Total grad fro-norm 4.727749
+Train Epoch: 10 [336/1516 (22%)]	Ave loss: 0.001448 and Total weight loss 0.015256 and Total grad fro-norm 4.736884
+Train Epoch: 10 [352/1516 (23%)]	Ave loss: 0.000984 and Total weight loss 0.015254 and Total grad fro-norm 4.429740
+Train Epoch: 10 [368/1516 (24%)]	Ave loss: 0.001918 and Total weight loss 0.015263 and Total grad fro-norm 4.053158
+Train Epoch: 10 [384/1516 (25%)]	Ave loss: 0.000979 and Total weight loss 0.015261 and Total grad fro-norm 2.444565
+Train Epoch: 10 [400/1516 (26%)]	Ave loss: 0.002209 and Total weight loss 0.015268 and Total grad fro-norm 9.507858
+Train Epoch: 10 [416/1516 (27%)]	Ave loss: 0.002336 and Total weight loss 0.015256 and Total grad fro-norm 9.910232
+Train Epoch: 10 [432/1516 (28%)]	Ave loss: 0.001492 and Total weight loss 0.015228 and Total grad fro-norm 9.084976
+Train Epoch: 10 [448/1516 (29%)]	Ave loss: 0.002231 and Total weight loss 0.015203 and Total grad fro-norm 9.321422
+Train Epoch: 10 [464/1516 (31%)]	Ave loss: 0.001219 and Total weight loss 0.015164 and Total grad fro-norm 8.951263
+Train Epoch: 10 [480/1516 (32%)]	Ave loss: 0.001900 and Total weight loss 0.015145 and Total grad fro-norm 11.785103
+Train Epoch: 10 [496/1516 (33%)]	Ave loss: 0.001554 and Total weight loss 0.015108 and Total grad fro-norm 6.322232
+Train Epoch: 10 [512/1516 (34%)]	Ave loss: 0.001543 and Total weight loss 0.015071 and Total grad fro-norm 2.891115
+Train Epoch: 10 [528/1516 (35%)]	Ave loss: 0.001210 and Total weight loss 0.015041 and Total grad fro-norm 7.629307
+Train Epoch: 10 [544/1516 (36%)]	Ave loss: 0.001503 and Total weight loss 0.015023 and Total grad fro-norm 3.840876
+Train Epoch: 10 [560/1516 (37%)]	Ave loss: 0.001104 and Total weight loss 0.015008 and Total grad fro-norm 7.156718
+Train Epoch: 10 [576/1516 (38%)]	Ave loss: 0.001984 and Total weight loss 0.014984 and Total grad fro-norm 5.791795
+Train Epoch: 10 [592/1516 (39%)]	Ave loss: 0.001485 and Total weight loss 0.014965 and Total grad fro-norm 3.379229
+Train Epoch: 10 [608/1516 (40%)]	Ave loss: 0.001259 and Total weight loss 0.014947 and Total grad fro-norm 3.228755
+Train Epoch: 10 [624/1516 (41%)]	Ave loss: 0.000926 and Total weight loss 0.014934 and Total grad fro-norm 8.442827
+Train Epoch: 10 [640/1516 (42%)]	Ave loss: 0.001585 and Total weight loss 0.014937 and Total grad fro-norm 6.339216
+Train Epoch: 10 [656/1516 (43%)]	Ave loss: 0.002315 and Total weight loss 0.014943 and Total grad fro-norm 7.939093
+Train Epoch: 10 [672/1516 (44%)]	Ave loss: 0.001296 and Total weight loss 0.014933 and Total grad fro-norm 3.376790
+Train Epoch: 10 [688/1516 (45%)]	Ave loss: 0.001855 and Total weight loss 0.014917 and Total grad fro-norm 4.822379
+Train Epoch: 10 [704/1516 (46%)]	Ave loss: 0.001680 and Total weight loss 0.014903 and Total grad fro-norm 3.283619
+Train Epoch: 10 [720/1516 (47%)]	Ave loss: 0.001082 and Total weight loss 0.014887 and Total grad fro-norm 3.620545
+Train Epoch: 10 [736/1516 (48%)]	Ave loss: 0.001572 and Total weight loss 0.014880 and Total grad fro-norm 1.213399
+Train Epoch: 10 [752/1516 (49%)]	Ave loss: 0.001287 and Total weight loss 0.014874 and Total grad fro-norm 4.256589
+Train Epoch: 10 [768/1516 (51%)]	Ave loss: 0.002320 and Total weight loss 0.014872 and Total grad fro-norm 17.940438
+Train Epoch: 10 [784/1516 (52%)]	Ave loss: 0.001434 and Total weight loss 0.014847 and Total grad fro-norm 3.685576
+Train Epoch: 10 [800/1516 (53%)]	Ave loss: 0.002334 and Total weight loss 0.014822 and Total grad fro-norm 9.300891
+Train Epoch: 10 [816/1516 (54%)]	Ave loss: 0.001271 and Total weight loss 0.014790 and Total grad fro-norm 3.345523
+Train Epoch: 10 [832/1516 (55%)]	Ave loss: 0.001413 and Total weight loss 0.014762 and Total grad fro-norm 7.173224
+Train Epoch: 10 [848/1516 (56%)]	Ave loss: 0.001639 and Total weight loss 0.014744 and Total grad fro-norm 2.274868
+Train Epoch: 10 [864/1516 (57%)]	Ave loss: 0.001982 and Total weight loss 0.014728 and Total grad fro-norm 4.718159
+Train Epoch: 10 [880/1516 (58%)]	Ave loss: 0.001612 and Total weight loss 0.014712 and Total grad fro-norm 2.399118
+Train Epoch: 10 [896/1516 (59%)]	Ave loss: 0.001419 and Total weight loss 0.014700 and Total grad fro-norm 3.461179
+Train Epoch: 10 [912/1516 (60%)]	Ave loss: 0.001261 and Total weight loss 0.014689 and Total grad fro-norm 1.851753
+Train Epoch: 10 [928/1516 (61%)]	Ave loss: 0.001469 and Total weight loss 0.014685 and Total grad fro-norm 4.159531
+Train Epoch: 10 [944/1516 (62%)]	Ave loss: 0.001312 and Total weight loss 0.014682 and Total grad fro-norm 6.587132
+Train Epoch: 10 [960/1516 (63%)]	Ave loss: 0.001574 and Total weight loss 0.014680 and Total grad fro-norm 1.636399
+Train Epoch: 10 [976/1516 (64%)]	Ave loss: 0.001227 and Total weight loss 0.014683 and Total grad fro-norm 7.857202
+Train Epoch: 10 [992/1516 (65%)]	Ave loss: 0.001257 and Total weight loss 0.014687 and Total grad fro-norm 5.064107
+Train Epoch: 10 [1008/1516 (66%)]	Ave loss: 0.000872 and Total weight loss 0.014702 and Total grad fro-norm 6.127777
+Train Epoch: 10 [1024/1516 (67%)]	Ave loss: 0.001989 and Total weight loss 0.014711 and Total grad fro-norm 5.669827
+Train Epoch: 10 [1040/1516 (68%)]	Ave loss: 0.002040 and Total weight loss 0.014711 and Total grad fro-norm 6.549667
+Train Epoch: 10 [1056/1516 (69%)]	Ave loss: 0.001181 and Total weight loss 0.014702 and Total grad fro-norm 5.859873
+Train Epoch: 10 [1072/1516 (71%)]	Ave loss: 0.001643 and Total weight loss 0.014696 and Total grad fro-norm 4.327050
+Train Epoch: 10 [1088/1516 (72%)]	Ave loss: 0.001482 and Total weight loss 0.014692 and Total grad fro-norm 9.516310
+Train Epoch: 10 [1104/1516 (73%)]	Ave loss: 0.001731 and Total weight loss 0.014694 and Total grad fro-norm 4.972255
+Train Epoch: 10 [1120/1516 (74%)]	Ave loss: 0.001457 and Total weight loss 0.014691 and Total grad fro-norm 7.572173
+Train Epoch: 10 [1136/1516 (75%)]	Ave loss: 0.001369 and Total weight loss 0.014694 and Total grad fro-norm 9.540821
+Train Epoch: 10 [1152/1516 (76%)]	Ave loss: 0.000829 and Total weight loss 0.014698 and Total grad fro-norm 6.304843
+Train Epoch: 10 [1168/1516 (77%)]	Ave loss: 0.001389 and Total weight loss 0.014711 and Total grad fro-norm 1.833880
+Train Epoch: 10 [1184/1516 (78%)]	Ave loss: 0.001250 and Total weight loss 0.014723 and Total grad fro-norm 6.162123
+Train Epoch: 10 [1200/1516 (79%)]	Ave loss: 0.001266 and Total weight loss 0.014741 and Total grad fro-norm 5.461264
+Train Epoch: 10 [1216/1516 (80%)]	Ave loss: 0.001897 and Total weight loss 0.014765 and Total grad fro-norm 6.610042
+Train Epoch: 10 [1232/1516 (81%)]	Ave loss: 0.000944 and Total weight loss 0.014769 and Total grad fro-norm 5.402604
+Train Epoch: 10 [1248/1516 (82%)]	Ave loss: 0.001279 and Total weight loss 0.014780 and Total grad fro-norm 1.875734
+Train Epoch: 10 [1264/1516 (83%)]	Ave loss: 0.001097 and Total weight loss 0.014790 and Total grad fro-norm 5.276172
+Train Epoch: 10 [1280/1516 (84%)]	Ave loss: 0.001296 and Total weight loss 0.014813 and Total grad fro-norm 2.963627
+Train Epoch: 10 [1296/1516 (85%)]	Ave loss: 0.001871 and Total weight loss 0.014841 and Total grad fro-norm 4.864806
+Train Epoch: 10 [1312/1516 (86%)]	Ave loss: 0.001526 and Total weight loss 0.014860 and Total grad fro-norm 3.470610
+Train Epoch: 10 [1328/1516 (87%)]	Ave loss: 0.001225 and Total weight loss 0.014869 and Total grad fro-norm 7.968240
+Train Epoch: 10 [1344/1516 (88%)]	Ave loss: 0.001428 and Total weight loss 0.014888 and Total grad fro-norm 5.419174
+Train Epoch: 10 [1360/1516 (89%)]	Ave loss: 0.001576 and Total weight loss 0.014908 and Total grad fro-norm 3.320736
+Train Epoch: 10 [1376/1516 (91%)]	Ave loss: 0.001418 and Total weight loss 0.014929 and Total grad fro-norm 3.607266
+Train Epoch: 10 [1392/1516 (92%)]	Ave loss: 0.000928 and Total weight loss 0.014957 and Total grad fro-norm 2.501387
+Train Epoch: 10 [1408/1516 (93%)]	Ave loss: 0.001216 and Total weight loss 0.014988 and Total grad fro-norm 10.995000
+Train Epoch: 10 [1424/1516 (94%)]	Ave loss: 0.001871 and Total weight loss 0.015016 and Total grad fro-norm 4.379735
+Train Epoch: 10 [1440/1516 (95%)]	Ave loss: 0.001546 and Total weight loss 0.015040 and Total grad fro-norm 6.704377
+Train Epoch: 10 [1456/1516 (96%)]	Ave loss: 0.001426 and Total weight loss 0.015063 and Total grad fro-norm 4.178158
+Train Epoch: 10 [1472/1516 (97%)]	Ave loss: 0.001507 and Total weight loss 0.015084 and Total grad fro-norm 8.762217
+Train Epoch: 10 [1488/1516 (98%)]	Ave loss: 0.001673 and Total weight loss 0.015114 and Total grad fro-norm 2.818925
+Train Epoch: 10 [1128/1516 (99%)]	Ave loss: 0.002608 and Total weight loss 0.015139 and Total grad fro-norm 7.357153
+
+Test set: Average loss: 0.0015, Accuracy: 1001/1516 (0.66%)
+
+[[492 266]
+ [249 509]]
+macro f-score 1516 0.660248
+
+
+Test set: Average loss: 0.0015, Accuracy: 109/169 (0.64%)
+
+[[58 27]
+ [33 51]]
+macro f-score 169 0.644360
+
+
+Test set: Average loss: 0.0015, Accuracy: 252/418 (0.60%)
+
+[[132  48]
+ [118 120]]
+macro f-score 418 0.602543
+

@@ -33,7 +33,7 @@ parser.add_argument('--cvnum',type=int,default=1,metavar='N', \
 parser.add_argument('--batch_size',type=int,default=16,metavar='N', \
                     help='input batch size for training ( default 16 )')
 parser.add_argument('--epoch',type=int,default=150,metavar='N', \
-                    help='number of epochs to train ( default 100)')
+                    help='number of epochs to train ( default 150)')
 parser.add_argument('--lr',type=float,default=0.001,metavar='LR', \
                     help='inital learning rate (default 0.001 )')
 parser.add_argument('--seed',type=int,default=1,metavar='S', \
@@ -52,7 +52,7 @@ os.environ["CUDA_VISIBLE_DEVICES"]=str(args.device_id)
 
 emotion_labels=('positive','negative',)
 superParams={'input_dim':153,
-            'hidden_dim':256,
+            'hidden_dim':128,
             'output_dim':len(emotion_labels),
             'num_layers':4,
             'biFlag':2,
@@ -126,7 +126,7 @@ class Net(nn.Module):
         self.layer1=nn.LSTM(input_size=input_dim,hidden_size=hidden_dim, \
                         num_layers=num_layers,batch_first=True, \
                         dropout=dropout,bidirectional=biFlag)
-        # out = (len batch outdim) ?
+        # out = (len batch outdim)
         self.layer2=nn.Sequential(
             nn.Linear(hidden_dim*self.bi_num,output_dim),
             nn.LogSoftmax(dim=2)
@@ -206,7 +206,7 @@ def test(testLoader):
 #        print(np.argmax(result)==test_dict2[filename])
         label_true.append(test_dict2[filename]);label_pred.append(np.argmax(result))
     print('\nTest set: Average loss: {:.4f}, Accuracy: {}/{} ({:.2f}%)\n'.format(
-        test_loss/numframes, metrics.accuracy_score(label_true,label_pred,normalize=False), \
+        test_loss/float(numframes), metrics.accuracy_score(label_true,label_pred,normalize=False), \
         len(test_dict1),metrics.accuracy_score(label_true,label_pred)))
     print(metrics.confusion_matrix(label_true,label_pred))
     print("macro f-score %f"%metrics.f1_score(label_true,label_pred,average="macro"))

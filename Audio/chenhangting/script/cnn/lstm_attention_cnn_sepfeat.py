@@ -135,7 +135,7 @@ class Net(nn.Module):
             nn.BatchNorm1d(6),
             nn.ReLU(),
             nn.MaxPool1d(kernel_size=2),
-            nn.Dropout(p=dropout),
+#            nn.Dropout(p=dropout),
         )
 
         self.cov2=nn.Sequential(
@@ -143,7 +143,7 @@ class Net(nn.Module):
             nn.BatchNorm1d(16),
             nn.ReLU(),
             nn.MaxPool1d(kernel_size=2),
-            nn.Dropout(p=dropout),
+#            nn.Dropout(p=dropout),
         )
 
         self.layer1=nn.LSTM(input_size=self.dimAfterCov+self.input_dim2,hidden_size=hidden_dim,  \
@@ -175,9 +175,9 @@ class Net(nn.Module):
         out_final=self.init_final_out(batch_size)
 
         x1=x1.view(-1,self.input_channels,self.input_dim1)
-        out=self.cov1(x1)
+#        out=self.cov1(x1)
 #        out=self.cov2(out)
-        out=out.view(batch_size,maxlength,self.dimAfterCov)
+        out=x1.view(batch_size,maxlength,self.dimAfterCov)
 
         out=torch.cat((out,x2),dim=2)
         out=pack_padded_sequence(out,length,batch_first=True)

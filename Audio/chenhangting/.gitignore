@@ -3,9 +3,14 @@ temp/
 /features/
 log
 *.pkl
+*.tar.gz
 
 # Python
 __pycache__/
 
 # easy to change
 parallel.sh
+parallel*
+
+# feature
+/audio_fusion_feature/
